@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lokeshahire.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/lokeshahire.github.io/static/js/main.d250f3de.js",
-    "static/js/787.78ef02f9.chunk.js": "/lokeshahire.github.io/static/js/787.78ef02f9.chunk.js",
-    "static/media/logo.svg": "/lokeshahire.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/lokeshahire.github.io/index.html",
-    "main.073c9b0a.css.map": "/lokeshahire.github.io/static/css/main.073c9b0a.css.map",
-    "main.d250f3de.js.map": "/lokeshahire.github.io/static/js/main.d250f3de.js.map",
-    "787.78ef02f9.chunk.js.map": "/lokeshahire.github.io/static/js/787.78ef02f9.chunk.js.map"
+    "main.css": "/lokeshahire.github.io/index.html/static/css/main.073c9b0a.css",
+    "main.js": "/lokeshahire.github.io/index.html/static/js/main.11a3d986.js",
+    "static/js/787.78ef02f9.chunk.js": "/lokeshahire.github.io/index.html/static/js/787.78ef02f9.chunk.js",
+    "static/media/logo.svg": "/lokeshahire.github.io/index.html/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lokeshahire.github.io/index.html/index.html",
+    "main.073c9b0a.css.map": "/lokeshahire.github.io/index.html/static/css/main.073c9b0a.css.map",
+    "main.11a3d986.js.map": "/lokeshahire.github.io/index.html/static/js/main.11a3d986.js.map",
+    "787.78ef02f9.chunk.js.map": "/lokeshahire.github.io/index.html/static/js/787.78ef02f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d250f3de.js"
+    "static/js/main.11a3d986.js"
   ]
 }
