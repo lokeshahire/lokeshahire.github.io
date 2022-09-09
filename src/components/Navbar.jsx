@@ -1,41 +1,70 @@
 import { Link } from "react-router-dom";
-// import "./Navbar.css";
+import "./Navbar.css";
+import "./Agustina.woff";
+import { useState } from "react";
 
 function Navbar() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  const closeMobileMenu = (id) => {
+    const section = document.querySelector(id);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    setClick(false);
+  };
+
   return (
     <div>
-      <nav className="navbarX sticky">
-        {/* <a href="" className="navbar-logoX" >
-          {navbar_name}
-        </a>
+      <nav className="navbarX sticky main">
         <div className="menu-iconX" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
-        </div> */}
-        <ul>
+        </div>
+        <ul className={click ? "nav-menuX activeX" : "nav-menuX"}>
           <li className="nav-itemX">
-            <Link to="/" className="nav-linksX">
+            <Link
+              to="/"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#main")}
+            >
               Home
             </Link>
           </li>
 
           <li className="nav-itemX">
-            <Link to="/" className="nav-linksX">
+            <Link
+              to="/"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#aboutme")}
+            >
               About Me
             </Link>
           </li>
           <li className="nav-itemX">
-            <Link to="/" className="nav-linksX">
+            <Link
+              to="/"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#whatido")}
+            >
               Skills
             </Link>
           </li>
 
           <li className="nav-itemX">
-            <Link to="/s" className="nav-linksX">
+            <Link
+              to="/s"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#projects")}
+            >
               Projects
             </Link>
           </li>
           <li className="nav-itemX">
-            <Link to="/s" className="nav-linksX">
+            <Link
+              to="/s"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#contact")}
+            >
               Contact Me
             </Link>
           </li>

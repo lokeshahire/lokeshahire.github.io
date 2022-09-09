@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Lokesh Ahire</h1>
     </div>
   );
 }
