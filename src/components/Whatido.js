@@ -10,23 +10,28 @@ const Whatido = () => {
         <h1 className="Whatido-title" id="whatido-title">
           <Fade bottom cascade>
             {" "}
-            SKILLS{" "}
+            TECH STACKS{" "}
           </Fade>
         </h1>
 
-        <div class="fluid-container">
+        <div className="fluid-container">
           <div className="row">
-            <div className="col-lg-5 vertical-center">
+            {/* <div className="col-lg-5 vertical-center">
               <div className="box">
                 {whatido.details.map((detail) => (
                   <p>⚡{detail}</p>
                 ))}
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-7 center order-first order-lg-last">
-              <h2 className="fullstack">{whatido.title}</h2>
+              <h2
+                style={{ marginLeft: "330px", width: "100%" }}
+                className="fullstack"
+              >
+                {whatido.title}
+              </h2>
               <div className="fluid-container logo">
-                <div class="row">
+                <div style={{ marginLeft: "330px", width: "100%" }} class="row">
                   {whatido.logos.map((logo) => (
                     <Logo
                       key={logo.id}
