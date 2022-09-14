@@ -1,18 +1,19 @@
 import React from "react";
 import { aboutme } from "../data";
-// const Fade = require("react-reveal/Fade");
-// //import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 import "./Aboutme.css";
 
 function Aboutme() {
   return (
     <section className="aboutme" id="aboutme">
       <h1 className="title">
-        <bottom>About ME</bottom>
+        <Fade bottom cascade>
+          About ME
+        </Fade>
       </h1>
       <div className="fluid-container">
         <div className="row">
-          <div>
+          <Fade left cascade duration={1500}>
             <div className="col-lg-5 col-md-5 image">
               <img
                 className="aboutme-img"
@@ -22,14 +23,14 @@ function Aboutme() {
                 alt="profile pic"
               />
             </div>
-          </div>
-          <div>
+          </Fade>
+          <Fade bottom cascade duration={1500}>
             <div className="col-lg-7 col-md-7 text">
               <p>{aboutme.p1}</p>
               <p>{aboutme.p2}</p>
               <p>{aboutme.p3}</p>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </section>

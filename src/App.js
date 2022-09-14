@@ -1,8 +1,9 @@
 import "./App.css";
 import Aboutme from "./components/Aboutme";
+import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import Skill from "./components/Skill";
+import Whatido from "./components/Whatido";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Main />
       <Aboutme />
-      <Skill />
+      <Whatido />
+      <Contact />
     </div>
   );
 }

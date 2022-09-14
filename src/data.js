@@ -27,7 +27,6 @@ export const aboutme = {
 };
 
 // Skills
-
 export const whatido = {
   title: "Full Stack Development",
 
@@ -115,8 +114,8 @@ export const whatido = {
       id: "15",
     },
     {
-      name: "Vercel",
-      iconifyClassName: "logos:vercel-icon",
+      name: "VS Code",
+      iconifyClassName: "vscode-icons:file-type-vscode",
       id: "16",
     },
   ],
