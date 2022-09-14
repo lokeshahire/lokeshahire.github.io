@@ -31,6 +31,10 @@ export const whatido = {
   title: "Full Stack Development",
 
   details: [
+    "Data Structures and Algorithm",
+    "FrontEnd Development",
+    "Backend Development",
+    "Communication Skills",
     "Building responsive website using HTML,CSS,JS,React",
     "Creating backend application in Node, ExpressJS",
     "Building Simple RESTful CRUD APIs",

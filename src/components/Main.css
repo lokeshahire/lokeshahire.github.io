@@ -19,9 +19,20 @@ div.mobile {
   padding-top: 0;
   text-align: left;
 }
+.lokeshTitle {
+  margin-top: -50px;
+  color: rgb(7, 152, 104);
+  font-size: 50px;
+}
 .mainX {
   padding-top: 30px;
   margin-top: 100px;
+}
+.gif-img {
+  margin-left: 150px;
+  background-color: transparent;
+  height: 300px;
+  width: 500px;
 }
 .n {
   padding-bottom: 15px;

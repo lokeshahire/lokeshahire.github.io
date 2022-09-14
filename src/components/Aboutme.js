@@ -18,7 +18,7 @@ function Aboutme() {
               <img
                 className="aboutme-img"
                 height="auto"
-                width="300"
+                width="400"
                 src={aboutme.imgLink}
                 alt="profile pic"
               />
