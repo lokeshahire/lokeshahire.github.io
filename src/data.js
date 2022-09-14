@@ -16,11 +16,13 @@ export const main = {
   doamin: "A MERN Stack Web Developer",
   resume:
     "https://drive.google.com/file/d/1ZF6xigCriJsxqW-A9FBmksl9FrZ9be3N/view?usp=sharing",
+  pic: "https://github.com/lokeshahire/ImageGit/blob/main/105935374-removebg-preview.png?raw=true",
 };
 
 // AboutMe
 export const aboutme = {
-  imgLink: "https://avatars.githubusercontent.com/u/105935374?v=4",
+  imgLink:
+    "https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif",
   p1: "Hey, My name is Lokesh Ahire. I have completed my Bachelor of Engineering from K.K.Wagh College of Engineering, Nashik(M.H.).",
   p2: " Currently, I have expertise in C, C++, HTML, CSS, Bootstrap, JavaScript, React, Express, and MongoDB. I also have knowledge of SQL and Bit Manipulation. I would love to be a part of an innovative organization and use my programming skills to help bring creativity and innovation to the organization.",
   p3: " Apart from programming, I enjoy playing sports ⚽, reading books 📚, photography 📸, listening to music 🎵 and riding 🏍️.",

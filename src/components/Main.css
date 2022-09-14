@@ -28,11 +28,9 @@ div.mobile {
   padding-top: 30px;
   margin-top: 100px;
 }
-.gif-img {
-  margin-left: 150px;
-  background-color: transparent;
-  height: 300px;
-  width: 500px;
+.aboutme-img {
+  margin-left: 100px;
+  border-radius: 60% 50% 40% 40%;
 }
 .n {
   padding-bottom: 15px;

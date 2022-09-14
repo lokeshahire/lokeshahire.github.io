@@ -14,6 +14,12 @@
   z-index: 1;
   padding: 65px 0;
 }
+.gif-img {
+  margin-left: 0px;
+  background-color: transparent;
+  height: 300px;
+  width: 500px;
+}
 
 h1 {
   font-size: 4rem;
@@ -24,12 +30,6 @@ h1 {
 
   color: aliceblue;
   text-align: center;
-}
-
-.aboutme-img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  align-items: center;
 }
 
 .image {

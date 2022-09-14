@@ -27,10 +27,12 @@ function Main() {
             </div>
             <div className="col-lg-6 ani">
               <img
-                className="gif-img"
+                className="aboutme-img"
                 height="auto"
                 width="400"
-                src={"https://c.tenor.com/NOYF3f82b_gAAAAC/programmer.gif"}
+                src={
+                  "https://miro.medium.com/max/3000/1*LEuQpN9ocXffEVLx6Mftww.png"
+                }
                 alt="profile pic"
               />
             </div>

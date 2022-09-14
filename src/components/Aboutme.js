@@ -16,9 +16,7 @@ function Aboutme() {
           <Fade left cascade duration={1500}>
             <div className="col-lg-5 col-md-5 image">
               <img
-                className="aboutme-img"
-                height="auto"
-                width="400"
+                className="gif-img"
                 src={aboutme.imgLink}
                 alt="profile pic"
               />
