@@ -3,6 +3,7 @@ import Aboutme from "./components/Aboutme";
 import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Project from "./components/Project";
 import Whatido from "./components/Whatido";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Aboutme />
       <Whatido />
+      <Project />
       <Contact />
     </div>
   );
