@@ -1,5 +1,6 @@
 import React from "react";
-
+import { details } from "../data";
+import ProjectData from "./ProjectData";
 import Fade from "react-reveal/Fade";
 import "./Project.css";
 
@@ -11,24 +12,18 @@ const Projects = () => {
           Projects
         </Fade>
       </h1>
-      <div className="card">
-        <p>TITLE</p>
-        <p>DESCRIPTION</p>
-        <p>TECHNOLOGY</p>
-        <p>IMAGES</p>
-      </div>
-      <div className="card">
-        <p>TITLE</p>
-        <p>DESCRIPTION</p>
-        <p>TECHNOLOGY</p>
-        <p>IMAGES</p>
-      </div>
-      <div className="card">
-        <p>TITLE</p>
-        <p>DESCRIPTION</p>
-        <p>TECHNOLOGY</p>
-        <p>IMAGES</p>
-      </div>
+      {details.map((prj) => (
+        <ProjectData
+          key={prj.id}
+          title={prj.title}
+          desc={prj.desc}
+          tech={prj.tech}
+          feature={prj.feature}
+          img={prj.img}
+          link={prj.link}
+          github={prj.github}
+        />
+      ))}
     </section>
   );
 };
