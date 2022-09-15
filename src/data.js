@@ -185,7 +185,7 @@ export const details = [
       Different Status,
       Paginations,`,
     tech: `Tech Stack: React | CSS | React JS | Exprees | JSON .`,
-    img: "https://miro.medium.com/max/875/1*OJDJxmmyvEt2wHWhALjFQw.png",
+    img: "https://miro.medium.com/max/875/1*5okRkZpCr3qWTrOq_Mapeg.png",
     github: "https://github.com/lokeshahire/Todo-List-with-All-Functionality",
     link: "https://lokesh-todo-all-functionality.netlify.app/",
   },
