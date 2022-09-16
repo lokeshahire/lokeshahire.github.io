@@ -35,7 +35,7 @@ div.mobile {
 .aboutme-img {
   margin-left: 250px;
   border-radius: 60% 50% 40% 40%;
-  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+  /* -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1))); */
 }
 .n {
   padding-bottom: 15px;
