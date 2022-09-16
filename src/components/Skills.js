@@ -5,8 +5,8 @@ import "./Skills.css";
 const Whatido = () => {
   return (
     <Fade bottom cascade>
-      <section id="whatido">
-        <h1 className="Whatido-title" id="whatido-title">
+      <section id="skill">
+        <h1 className="skill-title" id="skill-title">
           <Fade bottom cascade>
             {" "}
             SKILLS{" "}

@@ -11,10 +11,21 @@ function Main() {
           <div className="row">
             <div className="col-lg-6 ">
               <div className="mobile">
-                <h1 className="lokeshTitle">Hello, I am Lokesh Ahire</h1>
-                {/* <h1 className="main-title n" id="name">
-                  I am Lokesh Ahire
-                </h1> */}
+                <p id="lokeshahire" align="center">
+                  {/* <a
+                    align="center"
+                    href="https://github.com/lokeshahire/lokeshahire"
+                  >
+                    <img src="https://readme-typing-svg.herokuapp.com?color=0A88B3&size=35&lines=Hello + I'm + Lokesh+ Ahire" />
+                  </a> */}
+                  <a href="https://git.io/typing-svg">
+                    <img
+                      src="https://readme-typing-svg.herokuapp.com?font=&size=48&duration=2000&pause=&multiline=true&width=700&height=500&lines=Hello ,+ I'm + Lokesh+ Ahire"
+                      alt="Typing SVG"
+                    />
+                  </a>
+                </p>
+
                 <h1 className="main-title d">{main.doamin}</h1>
                 <a
                   href={main.resume}

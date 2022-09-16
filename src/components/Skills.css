@@ -1,10 +1,11 @@
-#whatido {
+#skill {
   margin-bottom: 50px;
 }
 
-.Whatido-title {
+.skill-title {
   color: var(--txtcolor);
   text-align: center;
+  margin-left: -200px;
   margin-bottom: -80px;
 }
 
@@ -43,7 +44,7 @@ div.logo {
   margin-top: -15px;
 }
 
-#whatido .box {
+#skill .box {
   margin: 80px 0px 50px 50px;
   font-size: 20px;
   text-align: left;
@@ -81,7 +82,7 @@ div.logo {
     margin-right: 200px;
     margin-left: 200px;
   }
-  #whatido .box {
+  #skill .box {
     margin: 50px;
   }
 }
@@ -91,7 +92,7 @@ div.logo {
     margin-right: 100px;
     margin-left: 100px;
   }
-  #whatido p {
+  #skill p {
     text-align: left;
   }
   .i {
@@ -113,7 +114,7 @@ div.logo {
     margin-left: 60px;
     margin-right: 60px;
   }
-  #whatido .box {
+  #skill .box {
     margin: 45px 20px 45px 20px;
     text-align: left;
   }
