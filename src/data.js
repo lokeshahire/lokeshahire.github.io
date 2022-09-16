@@ -105,8 +105,9 @@ export const whatido = {
       id: "12",
     },
     {
-      name: "Material-UI",
-      iconifyClassName: "logos:material-ui",
+      name: "Chakra-UI",
+      iconifyClassName: "simple-icons:chakraui",
+
       id: "13",
     },
     {
@@ -141,8 +142,8 @@ export const details = [
     Payment Page,`,
     tech: `Tech Stack: EJS | CSS | JavaScript | ReactJs | Redux | JSON`,
     img: "https://miro.medium.com/max/875/1*ru80flR8vGGCsI9i0MKLKQ.png",
+    link: "https://lokesh-jcrew-clone.netlify.app/",
     github: "https://github.com/lokeshahire/toothsome-week-3235",
-    link: "lokesh-jcrew-clone.netlify.app/",
   },
   {
     id: 2,
@@ -174,7 +175,7 @@ export const details = [
     tech: `Tech Stack: HTML | CSS | JavaScript | API | ES6  |`,
     img: "https://miro.medium.com/max/875/1*OJDJxmmyvEt2wHWhALjFQw.png",
     github: "https://github.com/lokeshahire/abrasive-trade-5771",
-    link: "clockify-me-clone.netlify.app/",
+    link: "https://clockify-me-clone.netlify.app/",
   },
   {
     id: 4,

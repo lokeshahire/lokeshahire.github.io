@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Whatido from "./components/Whatido";
 import Skills from "./components/Skills";
+import Statistics from "./components/Statistics";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Whatido />
       <Skills />
       <Project />
+      <Statistics />
       <Contact />
     </div>
   );

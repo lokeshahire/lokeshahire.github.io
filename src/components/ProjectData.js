@@ -24,12 +24,26 @@ const Project = (props) => {
               <p className="p">
                 <b>{props.tech}</b>
               </p>
+
+              <span>
+                {" "}
+                <a id="a" target="_blank" href={props.github}>
+                  <button>Source Code </button>
+                </a>
+              </span>
+
+              <span>
+                {" "}
+                <a id="b" target="_blank" href={props.link}>
+                  <button>Deploy link </button>
+                </a>
+              </span>
             </div>
           </Fade>
         </div>
 
         <div className="col-lg-6 img order-first order-lg-last">
-          <a target="_blank" href={"img"}>
+          <a target="_blank" href={props.link}>
             <Tilt className="Tilt" options={{ max: 55 }}>
               <img src={props.img} className="img-fluid" alt={props.title} />
             </Tilt>
