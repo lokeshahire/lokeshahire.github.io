@@ -1,6 +1,7 @@
 .contact-title {
   color: #272341 !important;
   font-size: 50px;
+  margin-top: 100px;
 }
 
 .icon {
@@ -13,7 +14,6 @@
 hr.style-f {
   border: 0;
   height: 0;
-
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   width: 50%;
@@ -36,7 +36,43 @@ p.copyright {
 #emailPhone a {
   color: black;
 }
-@media (max-width: 600px) {
+
+/* form */
+.form {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 500px;
+  gap: 100px;
+  border-radius: 60px;
+  margin: auto;
+  width: 35%;
+  height: 700px;
+  padding-left: 50px;
+  padding-top: 50px;
+  background-color: #b9dfe3;
+  text-align: center;
+}
+label {
+  margin-top: 30px;
+}
+input {
+  width: 400px;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  text-align: center;
+}
+textarea {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.Btn {
+  margin-left: 100px;
+}
+
+@media (max-width: 900px) {
   .contact-title {
     font-size: 35px;
     margin-bottom: 50px;
@@ -59,5 +95,24 @@ p.copyright {
     flex-direction: column;
     gap: 20%;
     justify-content: center;
+  }
+  .form {
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+
+    width: 35%;
+    height: 700px;
+  }
+  label {
+    margin-top: 30px;
+  }
+  input {
+    width: 200px;
+  }
+  textarea {
+    width: 200px;
+  }
+  .Btn {
+    margin-left: 00px;
   }
 }

@@ -14,10 +14,10 @@ const Whatido = () => {
         </h1>
 
         <div class="fluid-container">
-          <div className="row">
+          <div className="row skillRow">
             <div
               style={{ marginLeft: "400px" }}
-              className="col-lg-5 vertical-center"
+              className="col-lg-5 vertical-center skillRow"
             >
               <div className="box">
                 {whatido.details.map((detail) => (

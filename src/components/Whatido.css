@@ -109,6 +109,21 @@ div.logo {
   #whatido .box {
     margin: 50px;
   }
+  .row {
+    width: auto;
+  }
+
+  .logodesign {
+    margin-left: -500px;
+    width: 90%;
+  }
+  .fullstack {
+    font-size: 50px;
+    color: white;
+    border: 1px solid red;
+    width: 90%;
+    padding-left: 500px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -121,6 +136,21 @@ div.logo {
   }
   .i {
     padding: 20px 0px 0px 0px;
+  }
+  .row {
+    width: auto;
+  }
+
+  .logodesign {
+    margin-left: -400px;
+    width: 90%;
+  }
+  .fullstack {
+    font-size: 30px;
+    color: white;
+    border: 1px solid red;
+    width: 70%;
+    padding-left: 100px;
   }
 }
 

@@ -33,6 +33,11 @@
   border-radius: 50%;
   margin-left: 20px;
 }
+.innerCircle {
+  margin-top: 60px;
+  font-size: 45px;
+  color: #d712b6;
+}
 
 .circle-title {
   color: black;
@@ -74,6 +79,9 @@ div.logo {
 .fluid-container {
   margin-top: -15px;
 }
+.Calander {
+  margin-left: 300px;
+}
 
 @media (max-width: 990px) {
   .img-fluid {
@@ -100,6 +108,17 @@ div.logo {
   div.logo {
     margin-right: 200px;
     margin-left: 200px;
+  }
+  .rowcircle {
+    width: 100px;
+    margin: auto;
+  }
+  .leftcoding {
+    margin-left: 0px;
+  }
+  .Calander {
+    margin-top: 200px;
+    margin-left: -200px;
   }
 }
 

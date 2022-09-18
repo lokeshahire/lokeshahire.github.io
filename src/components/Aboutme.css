@@ -55,6 +55,28 @@ p {
     padding: 0 50px 50px 50px;
     font-size: larger;
   }
+  .image {
+    padding-bottom: 50px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  #hide {
+    display: flex;
+    justify-content: center;
+  }
+  div p {
+    margin: auto;
+
+    padding: 10px;
+    text-align: center;
+  }
+  .text {
+    font-size: larger;
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 770px) {

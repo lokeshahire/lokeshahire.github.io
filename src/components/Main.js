@@ -1,6 +1,8 @@
 import React from "react";
 import { Zoom } from "react-reveal";
+import { Link } from "react-router-dom";
 import { main } from "../data";
+
 import "./Main.css";
 
 function Main() {
@@ -12,14 +14,9 @@ function Main() {
             <div className="col-lg-6 ">
               <div className="mobile">
                 <p id="lokeshahire" align="center">
-                  {/* <a
-                    align="center"
-                    href="https://github.com/lokeshahire/lokeshahire"
-                  >
-                    <img src="https://readme-typing-svg.herokuapp.com?color=0A88B3&size=35&lines=Hello + I'm + Lokesh+ Ahire" />
-                  </a> */}
-                  <a href="https://git.io/typing-svg">
+                  <a>
                     <img
+                      className="nameImg"
                       src="https://readme-typing-svg.herokuapp.com?font=&size=48&duration=2000&pause=&multiline=true&width=700&height=500&lines=Hello ,+ I'm + Lokesh+ Ahire"
                       alt="Typing SVG"
                     />
@@ -27,12 +24,12 @@ function Main() {
                 </p>
 
                 <h1 className="main-title d">{main.doamin}</h1>
+
                 <a
-                  href={main.resume}
-                  target="_blank"
-                  className="btn btn-lg hide"
+                  href={require("../documents/LokeshResume.pdf")}
+                  download="LokeshResume"
                 >
-                  <button>RESUME</button>
+                  <button value="download">RESUME</button>
                 </a>
               </div>
             </div>
@@ -42,7 +39,7 @@ function Main() {
                 height="auto"
                 width="400"
                 src={
-                  "https://miro.medium.com/max/3000/1*LEuQpN9ocXffEVLx6Mftww.png"
+                  "https://miro.medium.com/max/875/1*iOPDlRRFiSlml918GyEzUA.png"
                 }
                 alt="profile pic"
               />

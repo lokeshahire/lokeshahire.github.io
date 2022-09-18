@@ -61,6 +61,9 @@ div.logo {
     margin-top: 30px;
     margin-bottom: 20px;
   }
+  .skill-title {
+    margin-left: 50px;
+  }
   .tags:hover:after {
     bottom: -23px;
   }
@@ -85,9 +88,30 @@ div.logo {
   #skill .box {
     margin: 50px;
   }
+  /* .row {
+    width: auto;
+  }
+
+  .logodesign {
+    margin-left: -500px;
+    width: 90%;
+  }
+  .fullstack {
+    font-size: 50px;
+    color: white;
+    border: 1px solid red;
+    width: 90%;
+    padding-left: 500px;
+  } */
+  .skillRow {
+    margin-left: -500px;
+  }
 }
 
 @media (max-width: 750px) {
+  .skill-title {
+    margin-left: 50px;
+  }
   div.logo {
     margin-right: 100px;
     margin-left: 100px;
@@ -98,9 +122,15 @@ div.logo {
   .i {
     padding: 20px 0px 0px 0px;
   }
+  .skillRow {
+    margin-left: -400px;
+  }
 }
 
 @media (max-width: 590px) {
+  .skill-title {
+    margin-left: 50px;
+  }
   .fullstack {
     margin-bottom: 0px;
   }
@@ -123,5 +153,9 @@ div.logo {
   }
   .i {
     padding: 40px 25px 10px 25px;
+  }
+  .skillRow {
+    font-size: 30px;
+    width: auto;
   }
 }

@@ -14,15 +14,8 @@ const Whatido = () => {
           </Fade>
         </h1>
 
-        <div className="fluid-container">
+        <div className="fluid-container logodesign">
           <div className="row">
-            {/* <div className="col-lg-5 vertical-center">
-              <div className="box">
-                {whatido.details.map((detail) => (
-                  <p>⚡{detail}</p>
-                ))}
-              </div>
-            </div> */}
             <div className="col-lg-7 center order-first order-lg-last">
               <h2
                 style={{ marginLeft: "330px", width: "100%" }}
@@ -30,7 +23,7 @@ const Whatido = () => {
               >
                 {whatido.title}
               </h2>
-              <div className="fluid-container logo">
+              <div className="fluid-container logodesign logo">
                 <div style={{ marginLeft: "330px", width: "100%" }} class="row">
                   {whatido.logos.map((logo) => (
                     <Logo

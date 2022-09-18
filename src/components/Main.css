@@ -102,6 +102,13 @@ div.mobile {
   .main-title {
     text-align: center;
   }
+  .nameImg {
+    width: 600px;
+    margin-top: -100px;
+  }
+  .aboutme-img {
+    margin-left: -80px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -117,10 +124,26 @@ div.mobile {
   .n {
     padding-bottom: 30px;
   }
+  .nameImg {
+    width: 450px;
+    margin-top: -100px;
+  }
+  .aboutme-img {
+    margin-left: 40px;
+  }
 }
 
 @media (max-width: 450px) {
   .d {
     font-size: 35px;
+  }
+  .nameImg {
+    width: 200px;
+    margin-top: -100px;
+  }
+  .aboutme-img {
+    margin-left: 40px;
+    width: 300px;
+    height: 350px;
   }
 }
