@@ -21,13 +21,13 @@ const Whatido = () => {
               className="col-lg-7 center order-first order-lg-last"
             >
               <h2
-                style={{ marginLeft: "330px", width: "100%" }}
+                // style={{ marginLeft: "330px", width: "100%" }}
                 className="fullstack"
                 id="fullstack"
               >
                 {whatido.title}
               </h2>
-              <div className="fluid-container logodesign logo">
+              <div id="rowlogos" className="fluid-container logodesign logo">
                 <div style={{ marginLeft: "330px", width: "100%" }} class="row">
                   {whatido.logos.map((logo) => (
                     <Logo

@@ -99,63 +99,69 @@ div.mobile {
   width: 100%;
 }
 
-@media (max-width: 990px) {
-  .ani,
-  div.mobile {
-    margin-top: 60px;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .mainX {
-    margin-top: 200px !important;
+@media screen and (max-width: 950px) {
+  #main {
+    padding-top: 80px;
+    padding-bottom: 98px;
+    width: 99%;
   }
   .main-title {
-    text-align: center;
+    text-align: left;
+    margin-left: -150px;
+  }
+  #lokeshahire {
+    width: 200px;
+  }
+  .nameImg {
+    width: 50px;
+    margin-left: -200px;
+  }
+  #resumebtn {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #main {
+    padding-top: 80px;
+    padding-bottom: 98px;
+
+    width: 99%;
+  }
+  .main-title {
+    width: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+  }
+  #lokeshahire {
+    width: 200px;
+  }
+  .nameImg {
+    width: 300px;
+    margin-left: -200px;
+  }
+  #resumebtn {
+    margin-left: -150px;
+  }
+  .aboutme-img {
+    margin-left: 15px;
+    width: 300px;
+  }
+  /* #main {
+    padding-top: 80px;
+    padding-bottom: 98px;
+    border: 2px solid red;
+    width: 120%;
+  }
+  .main-title {
+    text-align: left;
+    margin-left: -50px;
   }
   .nameImg {
     width: 600px;
-    margin-top: -100px;
+    margin-left: -200px;
   }
-  .aboutme-img {
-    margin-left: -80px;
-  }
-}
-
-@media (max-width: 650px) {
-  div.mobile {
-    font-size: 2rem;
-  }
-
-  .ani {
-    margin-top: 0;
-    padding-left: 0;
-  }
-
-  .n {
-    padding-bottom: 30px;
-  }
-  .nameImg {
-    width: 450px;
-    margin-top: -100px;
-  }
-  .aboutme-img {
-    margin-left: 40px;
-  }
-}
-
-@media (max-width: 450px) {
-  .d {
-    font-size: 35px;
-  }
-  .nameImg {
-    width: 200px;
-    margin-top: -100px;
-  }
-  .aboutme-img {
-    margin-left: 40px;
-    width: 300px;
-    height: 350px;
-  }
+  #resumebtn {
+    margin-left: 150px;
+  } */
 }

@@ -42,7 +42,7 @@ span.font0 {
 
 .nav-menuX {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -92,13 +92,14 @@ nav .nav-linksX:hover {
   display: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   .NavbarItemsX {
     position: relative;
   }
 
   .navbarX {
     height: 80px;
+    width: 68%;
   }
 
   .nav-menuX {
@@ -189,7 +190,8 @@ nav .nav-linksX:hover {
 }
 
 @media screen and (max-width: 450px) {
-  .nav-menuX {
-    height: 45vh;
+  .navbarX {
+    height: 80px;
+    width: 33%;
   }
 }

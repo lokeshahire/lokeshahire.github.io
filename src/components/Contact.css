@@ -80,7 +80,7 @@ textarea {
   margin-left: 100px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .contact-title {
     font-size: 35px;
     margin-bottom: 50px;
@@ -120,7 +120,27 @@ textarea {
   textarea {
     width: 200px;
   }
-  .Btn {
-    margin-left: 00px;
+  #sendbtn {
+    margin-top: 50px;
+    margin-left: -5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #aboutme {
+    margin-top: -100px;
+    width: auto;
+  }
+  .text {
+    /* width: 50%; */
+    margin-left: 50px;
+  }
+  .gif-img {
+    margin-left: -500px;
+    width: 400px;
+  }
+  #sendbtn {
+    margin-top: 50px;
+    margin-left: -90px;
+    color: red;
   }
 }

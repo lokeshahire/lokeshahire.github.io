@@ -56,6 +56,7 @@ const Statistics = () => {
         <div id="gitStat">
           <div align="center">
             <img
+              id="gitstat"
               style={{ height: "300px" }}
               src="https://github-readme-stats.vercel.app/api?username=lokeshahire&count_private=true&theme=algolia"
               alt="lokeshahire's GitHub stats"
@@ -63,6 +64,7 @@ const Statistics = () => {
           </div>
           <div align="center">
             <img
+              id="gitstat"
               style={{ height: "400px", marginTop: "50px" }}
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokeshahire&langs_count=8&theme=algolia"
               alt="lokeshahire's GitHub stats"
@@ -70,6 +72,7 @@ const Statistics = () => {
           </div>
           <div align="center">
             <img
+              id="gitstat"
               style={{ height: "300px", marginTop: "50px" }}
               src="https://github-readme-streak-stats.herokuapp.com/?user=lokeshahire"
               alt="lokeshahire's GitHub stats"
@@ -78,7 +81,10 @@ const Statistics = () => {
           <br />
           <br />
           <div align="center">
-            <img src="https://activity-graph.herokuapp.com/graph?username=lokeshahire&show_icons=true&count_private=true&include_all_commits=true&theme=minimal&hide_border=true&radius=4" />
+            <img
+              id="gitgraph"
+              src="https://activity-graph.herokuapp.com/graph?username=lokeshahire&show_icons=true&count_private=true&include_all_commits=true&theme=minimal&hide_border=true&radius=4"
+            />
           </div>
         </div>
       </section>

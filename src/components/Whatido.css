@@ -15,10 +15,13 @@
   font-weight: 501;
   margin-top: 50px;
   color: var(--txtcolor);
+  margin-left: 300px;
+  width: 900px;
 }
 #fullstack {
   font-size: 50px;
   margin-bottom: 50px;
+  /* border: 1px solid teal; */
 }
 #techStack {
   /* border: 5px solid rgb(38, 255, 0); */
@@ -89,24 +92,9 @@ div.logo {
   display: flex;
   align-items: center;
 }
-@media (max-width: 990px) {
-  .img-fluid {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  .tags:hover:after {
-    bottom: -23px;
-  }
-  .tags:hover:before {
-    bottom: 10px;
-  }
+@media (max-width: 950px) {
   .Whatido-title {
     font-size: 50px;
-  }
-
-  .fullstack {
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
   .center .i-mobile {
     padding: 40px 25px 15px 25px;
@@ -127,56 +115,26 @@ div.logo {
     width: 90%;
   }
   .fullstack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
     font-size: 50px;
     color: white;
-    border: 1px solid red;
-    width: 90%;
-    padding-left: 500px;
+
+    padding-left: 400px;
+    margin-top: 50px;
   }
 }
 
-@media (max-width: 750px) {
-  div.logo {
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  #whatido p {
-    text-align: left;
-  }
-  .i {
-    padding: 20px 0px 0px 0px;
-  }
-  .row {
-    width: auto;
-  }
-
-  .logodesign {
-    margin-left: -400px;
-    width: 90%;
-  }
-  .fullstack {
-    font-size: 30px;
-    color: white;
-    border: 1px solid red;
-    width: 70%;
-    padding-left: 100px;
-  }
-}
-
-@media (max-width: 590px) {
+@media (max-width: 450px) {
   .fullstack {
     margin-bottom: 0px;
   }
-  .tags:hover:after {
-    bottom: -35px;
+  #fullstack {
+    margin-left: 30px;
+    margin-top: 50px;
   }
-  .tags:hover:before {
-    bottom: -2px;
-  }
-  div.logo {
-    margin-left: 60px;
-    margin-right: 60px;
-  }
+
   #whatido .box {
     margin: 45px 20px 45px 20px;
     text-align: left;
@@ -186,5 +144,10 @@ div.logo {
   }
   .i {
     padding: 40px 25px 10px 25px;
+  }
+
+  #rowlogos {
+    width: 400px;
+    margin-left: 150px;
   }
 }

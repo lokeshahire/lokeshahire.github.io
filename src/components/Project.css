@@ -29,7 +29,13 @@
   text-align: center;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 950px) {
+  .project-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 450px) {
   .project-title {
     font-size: 50px;
   }

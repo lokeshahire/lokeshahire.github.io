@@ -81,7 +81,7 @@ h5.prj-title {
   margin-bottom: 0;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 950px) {
   h5.prj-title {
     text-align: center;
     margin-left: 0;
@@ -99,9 +99,10 @@ h5.prj-title {
 
   .img {
     padding: 50px 100px 50px 100px;
+    margin-top: 50px;
   }
 }
-@media (max-width: 990px) {
+/* @media (max-width: 990px) {
   .project-t .p {
     text-align: center;
     width: 100%;
@@ -114,13 +115,9 @@ h5.prj-title {
   h5.prj-title {
     margin-top: 10px;
   }
-}
+} */
 
-.img-fluid {
-  margin-top: 0;
-}
-
-@media (max-width: 990px) {
+@media (max-width: 450px) {
   .project-t .p {
     padding: 0 15px 0 15px;
   }
