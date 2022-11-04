@@ -23,33 +23,51 @@ const Contact = () => {
       <center>
         <div>
           <div className="form">
-            <form onSubmit={handleSubmit}>
-              <label>Your Name</label>
-              <input type="text" name="name" required />
-              <label>Email</label>
-              <input type="email" name="email" required />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
-              <label>Subject</label>
-              <input type="text" name="subject" required />
-              <label>Message</label>
-              <ValidationError
-                prefix="Message"
-                field="message"
-                errors={state.errors}
-              />
-
-              <textarea
-                rows="5"
-                placeholder="Type Your Message Here"
-                name="message"
+            {/* https://formsubmit.co/documentation */}
+            <form
+              action="https://formsubmit.co/iamlokeshahire@gmail.com"
+              method="POST"
+              target="blank"
+            >
+              <label>Name :</label>
+              <input
+                style={{ marginBottom: "20px", marginTop: "20px" }}
+                type="text"
+                name="Name"
+                placeholder="Your Name"
                 required
               />
-              <button className="Btn" type="submit" disabled={state.submitting}>
-                Submit
+              <label>Email :</label>
+              <input
+                style={{ marginTop: "20px" }}
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <label>Subject :</label>
+              <input
+                style={{
+                  marginTop: "20px",
+                  height: "150px",
+                  borderRadius: "20px",
+                }}
+                type="text"
+                name="Subject"
+                placeholder="Your Subject"
+                required
+              />
+
+              <input type="hidden" name="_captcha" value="false" />
+
+              <button
+                onClick={() => {
+                  window.location.reload();
+                }}
+                id="sendbtn"
+                type="submit"
+              >
+                Send
               </button>
             </form>
           </div>

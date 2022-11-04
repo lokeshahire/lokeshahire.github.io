@@ -13,6 +13,16 @@ div.mobile {
   margin-bottom: 3.2rem;
   color: var(--txtcolor);
 }
+#leftmobile {
+  /* margin-right: -500px;*/
+  /* border: 1px solid blue; */
+  margin-left: 200px;
+  width: 900px;
+}
+#resumebtn {
+  margin-top: 100px;
+  padding: 15px;
+}
 
 .main-title {
   font-size: 40px;

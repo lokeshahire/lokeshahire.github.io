@@ -12,7 +12,7 @@ function Main() {
         <Zoom duration={1000}>
           <div className="row">
             <div className="col-lg-6 ">
-              <div className="mobile">
+              <div className="mobile" id="leftmobile">
                 <p id="lokeshahire" align="center">
                   <a>
                     <img
@@ -29,7 +29,9 @@ function Main() {
                   href={require("../documents/LokeshResume.pdf")}
                   download="LokeshResume"
                 >
-                  <button value="download">RESUME</button>
+                  <button id="resumebtn" value="download">
+                    RESUME
+                  </button>
                 </a>
               </div>
             </div>

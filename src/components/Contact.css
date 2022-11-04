@@ -15,6 +15,9 @@
   gap: 30px;
 }
 
+#sendbtn {
+  margin-left: 100px;
+}
 hr.style-f {
   border: 0;
   height: 0;
@@ -62,9 +65,10 @@ label {
 input {
   width: 400px;
   border: none;
-  border-radius: 50px;
-  height: 40px;
-  text-align: center;
+  border-radius: 10px;
+  height: 50px;
+  padding-left: 20px;
+  text-align: left;
 }
 textarea {
   width: 400px;

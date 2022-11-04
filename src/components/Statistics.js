@@ -15,7 +15,7 @@ const Statistics = () => {
           </Fade>
         </h1>
 
-        <div class="fluid-container rowcircle">
+        <div id="statCircle" class="fluid-container rowcircle">
           <div className="row rowcircle">
             <div className="coding leftcoding">
               <div className="circle">
@@ -50,8 +50,36 @@ const Statistics = () => {
             </div>
           </div>
         </div>
-        <div className="Calander">
+        <div id="statCala" className="Calander">
           <GitHubCalendar username="lokeshahire" />
+        </div>
+        <div id="gitStat">
+          <div align="center">
+            <img
+              style={{ height: "300px" }}
+              src="https://github-readme-stats.vercel.app/api?username=lokeshahire&count_private=true&theme=algolia"
+              alt="lokeshahire's GitHub stats"
+            />
+          </div>
+          <div align="center">
+            <img
+              style={{ height: "400px", marginTop: "50px" }}
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokeshahire&langs_count=8&theme=algolia"
+              alt="lokeshahire's GitHub stats"
+            />
+          </div>
+          <div align="center">
+            <img
+              style={{ height: "300px", marginTop: "50px" }}
+              src="https://github-readme-streak-stats.herokuapp.com/?user=lokeshahire"
+              alt="lokeshahire's GitHub stats"
+            />
+          </div>
+          <br />
+          <br />
+          <div align="center">
+            <img src="https://activity-graph.herokuapp.com/graph?username=lokeshahire&show_icons=true&count_private=true&include_all_commits=true&theme=minimal&hide_border=true&radius=4" />
+          </div>
         </div>
       </section>
     </Fade>

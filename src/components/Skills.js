@@ -14,7 +14,7 @@ const Whatido = () => {
         </h1>
 
         <div class="fluid-container">
-          <div className="row skillRow">
+          <div id="skillrow" className="row skillRow">
             <div
               style={{ marginLeft: "400px" }}
               className="col-lg-5 vertical-center skillRow"

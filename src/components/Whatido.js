@@ -16,10 +16,14 @@ const Whatido = () => {
 
         <div className="fluid-container logodesign">
           <div className="row">
-            <div className="col-lg-7 center order-first order-lg-last">
+            <div
+              id="techStack"
+              className="col-lg-7 center order-first order-lg-last"
+            >
               <h2
                 style={{ marginLeft: "330px", width: "100%" }}
                 className="fullstack"
+                id="fullstack"
               >
                 {whatido.title}
               </h2>

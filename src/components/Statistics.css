@@ -1,7 +1,8 @@
-#whatido {
+#whatidoStasti {
   margin-bottom: 50px;
-  border: 2px solid red;
-  width: 99.4%;
+  border: 2px solid rgb(30, 0, 255);
+  width: 90%;
+  margin: auto;
 }
 
 .whatidoStasti-title {
@@ -15,6 +16,16 @@
   font-weight: 501;
   margin-top: 50px;
   color: var(--txtcolor);
+}
+#statCircle {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+#statCala {
+  margin-left: 400px;
+}
+#gitStat {
+  margin-top: 100px;
 }
 .row {
   display: flex;

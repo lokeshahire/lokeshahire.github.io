@@ -1,4 +1,4 @@
-#whatidoStasti {
+#whatido {
   margin-bottom: 50px;
   border: 2px solid rgb(64, 0, 255);
   width: 99.4%;
@@ -11,12 +11,19 @@
 }
 
 .fullstack {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 501;
   margin-top: 50px;
   color: var(--txtcolor);
 }
-
+#fullstack {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+#techStack {
+  /* border: 5px solid rgb(38, 255, 0); */
+  margin-left: 30px;
+}
 .img-fluid {
   margin-top: 100px;
 }
