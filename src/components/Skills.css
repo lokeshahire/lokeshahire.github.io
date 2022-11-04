@@ -1,5 +1,7 @@
 #skill {
   margin-bottom: 50px;
+  border: 2px solid red;
+  width: 99.4%;
 }
 
 .skill-title {

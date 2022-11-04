@@ -46,6 +46,15 @@ function Navbar() {
               className="nav-linksX"
               onClick={() => closeMobileMenu("#whatido")}
             >
+              Tech Stack
+            </Link>
+          </li>
+          <li className="nav-itemX">
+            <Link
+              to="/"
+              className="nav-linksX"
+              onClick={() => closeMobileMenu("#skill")}
+            >
               Skills
             </Link>
           </li>

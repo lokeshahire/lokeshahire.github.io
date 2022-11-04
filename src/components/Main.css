@@ -1,6 +1,8 @@
 #main {
   padding-top: 80px;
   padding-bottom: 98px;
+  border: 2px solid red;
+  width: 99.4%;
 }
 
 div.mobile {

@@ -14,6 +14,8 @@
   margin-top: 72px;
   z-index: 1;
   padding: 65px 0;
+  border: 2px solid red;
+  width: 99.4%;
 }
 .gif-img {
   margin-left: 0px;
