@@ -1,7 +1,7 @@
 #skill {
   margin-bottom: 50px;
-  border: 2px solid red;
-  width: 99.4%;
+  /* border: 2px solid red; */
+  width: 100%;
 }
 
 .skill-title {
@@ -16,9 +16,6 @@
   font-weight: 501;
   margin-top: 50px;
   color: var(--txtcolor);
-}
-#skillrow {
-  margin-left: 100px;
 }
 
 .img-fluid {
@@ -61,6 +58,11 @@ div.logo {
   display: flex;
   align-items: center;
 }
+
+.skillRow {
+  font-size: 20px;
+  margin-left: 200px;
+}
 @media (max-width: 950px) {
   .img-fluid {
     margin-top: 30px;
@@ -93,6 +95,11 @@ div.logo {
   #skill .box {
     margin: 50px;
   }
+
+  .skillRow {
+    font-size: 20px;
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -122,9 +129,9 @@ div.logo {
   .i {
     padding: 40px 25px 10px 25px;
   }
+
   .skillRow {
     font-size: 20px;
-    margin-left: -100px;
-    width: 100%;
+    margin-left: 50px;
   }
 }

@@ -17,6 +17,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbarX sticky main">
+        <a href="" className="navbar-logoX"></a>
         <div className="menu-iconX" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>

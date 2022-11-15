@@ -10,11 +10,11 @@
     #00bf72,
     #a8eb12
   );
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 99.4%;
 }
 .card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 500px;
   height: 500px;
   background-color: transparent;

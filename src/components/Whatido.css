@@ -1,28 +1,31 @@
 #whatido {
   margin-bottom: 50px;
-  border: 2px solid rgb(64, 0, 255);
-  width: 99.4%;
+  /* border: 2px solid rgb(64, 0, 255); */
+  width: 100%;
 }
 
 .Whatido-title {
   color: var(--txtcolor);
   text-align: center;
   margin-bottom: -80px;
+  font-size: 50px;
 }
 
 .fullstack {
-  font-size: 50px;
-  font-weight: 501;
-  margin-top: 50px;
   color: var(--txtcolor);
-  margin-left: 300px;
-  width: 900px;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 50%;
+  margin-top: 50px;
 }
-#fullstack {
-  font-size: 50px;
-  margin-bottom: 50px;
-  /* border: 1px solid teal; */
+.myrow {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 70%;
 }
+
 #techStack {
   /* border: 5px solid rgb(38, 255, 0); */
   margin-left: 30px;
@@ -92,6 +95,11 @@ div.logo {
   display: flex;
   align-items: center;
 }
+.row {
+  width: 70%;
+  /* border: 1px solid blue; */
+  margin: auto;
+}
 @media (max-width: 950px) {
   .Whatido-title {
     font-size: 50px;
@@ -106,22 +114,17 @@ div.logo {
   #whatido .box {
     margin: 50px;
   }
-  .row {
-    width: auto;
-  }
 
   .logodesign {
     margin-left: -500px;
     width: 90%;
   }
   .fullstack {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 250px;
-    font-size: 50px;
-    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 100px;
 
-    padding-left: 400px;
     margin-top: 50px;
   }
 }
@@ -129,19 +132,16 @@ div.logo {
 @media (max-width: 450px) {
   .fullstack {
     margin-bottom: 0px;
-  }
-  #fullstack {
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 50px;
+    font-size: 30px;
   }
 
   #whatido .box {
     margin: 45px 20px 45px 20px;
     text-align: left;
   }
-  .fullstack {
-    font-size: 30px;
-  }
+
   .i {
     padding: 40px 25px 10px 25px;
   }
@@ -149,5 +149,6 @@ div.logo {
   #rowlogos {
     width: 400px;
     margin-left: 150px;
+    border: 1px solid red;
   }
 }

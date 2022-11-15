@@ -13,33 +13,21 @@ const Whatido = () => {
             TECH STACKS{" "}
           </Fade>
         </h1>
-
-        <div className="fluid-container logodesign">
-          <div className="row">
-            <div
-              id="techStack"
-              className="col-lg-7 center order-first order-lg-last"
-            >
-              <h2
-                // style={{ marginLeft: "330px", width: "100%" }}
-                className="fullstack"
-                id="fullstack"
-              >
-                {whatido.title}
-              </h2>
-              <div id="rowlogos" className="fluid-container logodesign logo">
-                <div style={{ marginLeft: "330px", width: "100%" }} class="row">
-                  {whatido.logos.map((logo) => (
-                    <Logo
-                      key={logo.id}
-                      name={logo.name}
-                      className={logo.iconifyClassName}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
+        <h2
+          // style={{ marginLeft: "330px", width: "100%" }}
+          className="fullstack"
+          id="fullstack"
+        >
+          {whatido.title}
+        </h2>
+        <div className=" row myrow">
+          {whatido.logos.map((logo) => (
+            <Logo
+              key={logo.id}
+              name={logo.name}
+              className={logo.iconifyClassName}
+            />
+          ))}
         </div>
       </section>
     </Fade>

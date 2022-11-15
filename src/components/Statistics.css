@@ -1,6 +1,6 @@
 #whatidoStasti {
   margin-bottom: 50px;
-  border: 2px solid rgb(30, 0, 255);
+  /* border: 2px solid rgb(30, 0, 255); */
   width: 98%;
   margin: auto;
 }
@@ -18,11 +18,13 @@
   color: var(--txtcolor);
 }
 #statCircle {
-  margin-left: 100px;
   margin-bottom: 100px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-left: 50px;
 }
 #statCala {
-  margin-left: 400px;
+  margin-left: 300px;
 }
 #gitStat {
   margin-top: 100px;
@@ -44,7 +46,6 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-left: 20px;
 }
 .innerCircle {
   margin-top: 60px;
@@ -60,9 +61,6 @@
 .circle-subtitle {
   color: black;
   text-align: center;
-}
-.leftcoding {
-  margin-left: 250px;
 }
 
 .img-fluid {
@@ -187,5 +185,8 @@ div.logo {
   }
   #gitgraph {
     width: 100%;
+  }
+  .whatidoStasti-title {
+    font-size: 30px;
   }
 }

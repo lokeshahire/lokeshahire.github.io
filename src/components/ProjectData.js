@@ -12,7 +12,7 @@ const Project = (props) => {
         </Fade>
       </h5>
 
-      <div className="row">
+      <div className="row projectRow">
         <div className="col-lg-6 project-t ">
           <Fade bottom cascade>
             <div>
@@ -42,7 +42,7 @@ const Project = (props) => {
           </Fade>
         </div>
 
-        <div className="col-lg-6 img order-first order-lg-last">
+        <div className="col-lg-6 img order-first order-lg-last mainImg">
           <a target="_blank" href={props.link}>
             <Tilt className="Tilt" options={{ max: 55 }}>
               <img src={props.img} className="img-fluid" alt={props.title} />

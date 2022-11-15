@@ -8,7 +8,7 @@ import "./Main.css";
 function Main() {
   return (
     <section className="mainX" id="main">
-      <div className="fluid-container">
+      <div className="fluid_container">
         <Zoom duration={1000}>
           <div className="row">
             <div className="col-lg-6 ">

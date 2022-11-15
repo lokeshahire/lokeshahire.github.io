@@ -13,9 +13,6 @@ button {
   margin: 36px 20px 36px 0;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.4);
 }
-.Tilt {
-  margin-top: -100px;
-}
 
 #b {
   color: black;
@@ -63,6 +60,19 @@ h5 {
   text-align: justify;
   text-justify: inter-word;
   margin-bottom: 100px;
+
+  margin-left: 100px;
+  width: 1000px;
+}
+.Tilt {
+  margin-top: -100px;
+  margin-right: -800px;
+  width: 100%;
+}
+.mainImg {
+  margin-top: -100px;
+  margin-left: 200px;
+  margin-bottom: 50px;
 }
 
 .img {
@@ -76,46 +86,40 @@ h5 {
 
 h5.prj-title {
   margin-top: 50px;
-  margin-left: 90px;
   padding: 0;
   margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
 }
+/* @media (max-width: 995px) {
+  .mainImg {
+    margin-left: 200px;
+    margin-bottom: 50px;
+  }
+} */
 
-@media (max-width: 950px) {
+@media (max-width: 995px) {
   h5.prj-title {
     text-align: center;
     margin-left: 0;
   }
   .project-t {
-    align-items: center;
-    text-align: center;
     padding: 0 50px 25px 50px;
+    margin-left: 50px;
   }
   .project-t .p {
-    text-align: center;
     width: 100%;
     padding: 30px 50px 0 50px;
   }
-
+  .mainImg {
+    margin-left: 50px;
+    margin-bottom: -100px;
+  }
   .img {
     padding: 50px 100px 50px 100px;
     margin-top: 50px;
   }
 }
-/* @media (max-width: 990px) {
-  .project-t .p {
-    text-align: center;
-    width: 100%;
-    padding: 30px 15px 0 15px;
-  }
-
-  .img {
-    padding: 35px 50px 15px 50px;
-  }
-  h5.prj-title {
-    margin-top: 10px;
-  }
-} */
 
 @media (max-width: 450px) {
   .project-t .p {
