@@ -51,7 +51,7 @@ function Statistics() {
             alt="lokeshahire's GitHub stats"
           />
         </Stack>
-        <Stack>
+        {/* <Stack>
           <Img
             id="gitgraph"
             blockSize={15}
@@ -62,7 +62,7 @@ function Statistics() {
             mb={50}
             src="https://activity-graph.herokuapp.com/graph?username=lokeshahire&show_icons=true&count_private=true&include_all_commits=true&&hide_border=true&radius=4"
           />
-        </Stack>
+        </Stack> */}
         <Stack align="center">
           <Img
             id="gitstat"
@@ -73,15 +73,6 @@ function Statistics() {
             alt="lokeshahire's GitHub stats"
           />
         </Stack>
-        {/* <Stack align="center">
-        <img
-          id="gitstat"
-          h={350}
-          mb={50}
-          src="https://github-readme-stats.vercel.app/api?username=lokeshahire&count_private=true&theme=algolia"
-          alt="lokeshahire's GitHub stats"
-        />
-      </Stack> */}
       </Row>
     </Container>
   );

@@ -40,12 +40,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="iamlokeshahire@gmail.com"
-                style={{ color: "white" }}
+                href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
+                style={{ color: "white", textDecoration: "none" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaMailBulk />
+                iamlokeshahire@gmail.com
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +91 7042421211
               </a>
             </li>
           </ul>

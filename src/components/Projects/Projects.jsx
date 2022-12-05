@@ -26,6 +26,7 @@ function Projects() {
               description="Shop JCrew.com for the Highest Quality Women's and Men's Clothing and see the entire selection of Children's Clothing, Cashmere Sweaters, Women's Dresses ."
               ghLink="https://github.com/lokeshahire/toothsome-week-3235"
               demoLink="https://lokesh-jcrew-clone.netlify.app//"
+              techstack="  ReactJS |  NodeJS  |  MongoDB |  JSON   | API  |  ES6"
             />
           </Col>
 
@@ -39,6 +40,7 @@ function Projects() {
               description="At netmeds.com make a wide range of prescription medicines and other health products conveniently available all across India."
               ghLink="https://github.com/lokeshahire/NetMeds-Clone"
               demoLink="https://netmedclone-akash-alok-ashish-lokesh-parv-pooja.netlify.app/"
+              techstack="  HTML |  CSS  | JavaScript  | LocalStorage  |  API  |  ES6"
             />
           </Col>
 
@@ -52,6 +54,7 @@ function Projects() {
               description="Clockify is a time tracker and timesheet app"
               ghLink="https://github.com/lokeshahire/abrasive-trade-5771"
               demoLink="https://clockify-me-clone.netlify.app/"
+              techstack="  HTML  |  CSS  |  JavaScript  |  LocalStorage  |  API  |  ES6"
             />
           </Col>
 
@@ -65,6 +68,7 @@ function Projects() {
               description="A small Todo app to keep the our Todos"
               ghLink="https://github.com/lokeshahire/Todo-List-with-All-Functionality"
               demoLink="https://lokesh-todo-all-functionality.netlify.app/"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
             />
           </Col>
 
@@ -78,6 +82,7 @@ function Projects() {
               description="It is help to make Admission Database with the help of simple steps"
               ghLink="https://lokesh-masai-admission.netlify.app/"
               demoLink="https://github.com/lokeshahire/Masai-Admission-DataBase"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
             />
           </Col>
 
@@ -92,6 +97,7 @@ function Projects() {
   Recipe of the day."
               ghLink="https://github.com/lokeshahire/Masai-Employee-Records"
               demoLink="https://lokesh-u2c3-masai-employee-records.netlify.app/"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
             />
           </Col>
         </Row>

@@ -19,13 +19,9 @@ function Home2() {
               <br />
               Currently, I have expertise in C, C++, HTML, CSS, Bootstrap,
               JavaScript, React, Express, and MongoDB. I also have knowledge of
-              SQL and Bit Manipulation. I would love to be a part of an
-              innovative organization and use my programming skills to help
-              bring creativity and innovation to the organization.
-              <br />
-              <br />
-              Apart from programming, I enjoy playing sports ⚽, reading books
-              📚, photography 📸, listening to music 🎵 and riding 🏍️.
+              SQL and Bit Manipulation. Apart from programming, I enjoy playing
+              sports ⚽, reading books 📚, photography 📸, listening to music 🎵
+              and riding 🏍️.
               <br />
               <br />
             </p>
@@ -34,7 +30,7 @@ function Home2() {
             <Tilt>
               <img
                 src={
-                  "https://miro.medium.com/max/875/1*iOPDlRRFiSlml918GyEzUA.png"
+                  "https://miro.medium.com/max/828/1*V9M9gZNBUin8oE1_EXu1ww.webp"
                 }
                 className="img-fluid"
                 alt="avatar"
@@ -42,56 +38,6 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        {/* <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row> */}
       </Container>
     </Container>
   );
