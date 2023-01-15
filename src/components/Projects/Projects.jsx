@@ -25,7 +25,7 @@ function Projects() {
               title="J.Crew Clone Website"
               description="Shop JCrew.com for the Highest Quality Women's and Men's Clothing and see the entire selection of Children's Clothing, Cashmere Sweaters, Women's Dresses ."
               ghLink="https://github.com/lokeshahire/toothsome-week-3235"
-              demoLink="https://lokesh-jcrew-clone.netlify.app//"
+              demoLink="https://jcrew-clone-lokesh.netlify.app/"
               techstack="  ReactJS |  NodeJS  |  MongoDB |  JSON   | API  |  ES6"
             />
           </Col>
@@ -39,7 +39,7 @@ function Projects() {
               title="NetMeds.com Clone"
               description="At netmeds.com make a wide range of prescription medicines and other health products conveniently available all across India."
               ghLink="https://github.com/lokeshahire/NetMeds-Clone"
-              demoLink="https://netmedclone-akash-alok-ashish-lokesh-parv-pooja.netlify.app/"
+              demoLink="https://netmed-lokesh-alok-ashish-akash-pooja.netlify.app/"
               techstack="  HTML |  CSS  | JavaScript  | LocalStorage  |  API  |  ES6"
             />
           </Col>
@@ -53,7 +53,7 @@ function Projects() {
               title="Clockify Me Clone"
               description="Clockify is a time tracker and timesheet app"
               ghLink="https://github.com/lokeshahire/abrasive-trade-5771"
-              demoLink="https://clockify-me-clone.netlify.app/"
+              demoLink="https://clockify-me-clone-lokesh.netlify.app/"
               techstack="  HTML  |  CSS  |  JavaScript  |  LocalStorage  |  API  |  ES6"
             />
           </Col>
