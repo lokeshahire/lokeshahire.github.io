@@ -61,43 +61,42 @@ function Projects() {
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath={
-                "https://miro.medium.com/max/875/1*5okRkZpCr3qWTrOq_Mapeg.png"
+                "https://miro.medium.com/max/828/1*tbMO2E4CTxGvC_6DigObzg.webp"
               }
               isBlog={false}
-              title="Todo App"
-              description="A small Todo app to keep the our Todos"
-              ghLink="https://github.com/lokeshahire/Todo-List-with-All-Functionality"
-              demoLink="https://lokesh-todo-all-functionality.netlify.app/"
-              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
+              title="Apna TV"
+              description="Apna TV is an OTT platform that have movies and web series around the world in many languages."
+              ghLink="https://github.com/lokeshahire/Apna-TV"
+              demoLink="https://apnatv.vercel.app/"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6 | NodeJS |  MongoDB"
             />
           </Col>
 
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath={
-                "https://miro.medium.com/max/875/1*-HK33ZnwNYx-QQxv4s0eFg.png"
+                "https://camo.githubusercontent.com/7bf822c2e59c552663fc4299963dc0c1812c2e561c8d25d9d13bc3364afe98cd/68747470733a2f2f692e706f7374696d672e63632f5a7134435a766d442f5765622d636170747572652d31392d31322d323032322d3137333131342d74696d656c792d63756375727563686f2d3162373735372d6e65746c6966792d6170702e6a7067"
               }
               isBlog={false}
-              title="Admission Database"
-              description="It is help to make Admission Database with the help of simple steps"
-              ghLink="https://lokesh-masai-admission.netlify.app/"
-              demoLink="https://github.com/lokeshahire/Masai-Admission-DataBase"
-              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
+              title="Skinstore-Clone"
+              description="It is a collaborative project where we try to implement our best possible knowledge to showcase and try to grab attention of users where they are looking for beauty products"
+              ghLink="https://github.com/lokeshahire/Skinstore-Clone"
+              demoLink="https://timely-cucurucho-1b7757.netlify.app/"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6  | NodeJS |  MongoDB"
             />
           </Col>
 
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath={
-                "https://miro.medium.com/max/875/1*m-0B4yRN7r6HaUTBCyetjg.png"
+                "https://miro.medium.com/max/828/1*gWfhAxDSkJNRr3nE5RtmOw.webp"
               }
               isBlog={false}
-              title="EMPLOYEE RECORDS"
-              description="It's a EMPLOYEE RECORDS App to Records different catergories of Employees,
-  Recipe of the day."
-              ghLink="https://github.com/lokeshahire/Masai-Employee-Records"
-              demoLink="https://lokesh-u2c3-masai-employee-records.netlify.app/"
-              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6"
+              title="Toggl-Track-Clone"
+              description="Toggl Track is a time tracking app that allows you to track your daily activities, you can set your tasks and also create your projects."
+              ghLink="https://github.com/lokeshahire/toggl-track-clone"
+              demoLink="https://toggl-time-tracking.vercel.app/"
+              techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6  | NodeJS |  MongoDB"
             />
           </Col>
         </Row>

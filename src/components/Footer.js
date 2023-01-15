@@ -17,10 +17,10 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+            <li className="social-icons" style={{ height: "50px", width: "50px" }}>
               <a
                 href="https://github.com/lokeshahire"
-                style={{ color: "white" }}
+                style={{ color: "white", fontSize: "30px" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -28,10 +28,10 @@ function Footer() {
               </a>
             </li>
 
-            <li className="social-icons">
+            <li className="social-icons" style={{ height: "50px", width: "50px" }}>
               <a
                 href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
-                style={{ color: "white" }}
+                style={{ color: "white", fontSize: "30px" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "white", textDecoration: "none", fontSize: "15px" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -30,7 +30,7 @@ function Home2() {
             <Tilt>
               <img
                 src={
-                  "https://miro.medium.com/max/828/1*V9M9gZNBUin8oE1_EXu1ww.webp"
+                  "https://miro.medium.com/max/640/1*Fw9mfaVWjH7sw5NzssuPBQ.webp"
                 }
                 className="img-fluid"
                 alt="avatar"
