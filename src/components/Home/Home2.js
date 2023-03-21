@@ -20,8 +20,8 @@ function Home2() {
               Engineering from K.K.Wagh College of Engineering, Nashik(M.H.).
               <br />
               <br />
-              Currently, I have expertise in C, C++, HTML, CSS, Bootstrap,
-              JavaScript, React, Express, and MongoDB. I also have knowledge of
+              Currently, I have expertise in C, C++, HTML, CSS, ChakraUI,
+              JavaScript, NodeJS, React, ExpressJS, and MongoDB. I also have knowledge of
               SQL and Bit Manipulation. Apart from programming, I enjoy playing
               sports ⚽, reading books 📚, photography 📸, listening to music 🎵
               and riding 🏍️.
