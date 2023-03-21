@@ -124,7 +124,7 @@ function NavBar() {
             <Navbar.Brand style={{ marginTop: "7px", marginLeft: "13px" }}>
               {/* <Button> */}
               <a
-                href={require("../documents/LokeshResume.pdf")}
+                href={require("../documents/LokeshAhireResume.pdf")}
                 alt="brand"
                 download="LokeshResume"
                 style={{

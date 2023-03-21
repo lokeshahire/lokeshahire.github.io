@@ -12,6 +12,8 @@ import {
   Textarea,
   Text,
 } from "@chakra-ui/react";
+import styles from "./Contact.module.css";
+
 import { Stack } from "react-bootstrap";
 
 const Contact = () => {
@@ -29,7 +31,7 @@ const Contact = () => {
       border="1px solid red"
       w={"50%"}
       borderColor="#eee"
-      borderRadius="40px"
+      borderRadius="20px"
       overflow="hidden"
       padding={"5%"}
     >
@@ -53,10 +55,11 @@ const Contact = () => {
                 name="name"
                 placeholder="Full Name"
                 required
-                borderRadius="20px"
+                borderRadius="10px"
                 // paddingLeft={"30px"}
                 border="none"
                 marginBottom={"10px"}
+                className={styles.inputTag}
               />
             </Stack>
             <Stack mb={"10px"}>
@@ -65,11 +68,12 @@ const Contact = () => {
                 name="email"
                 placeholder="Email Address"
                 required
-                borderRadius="20px"
+                borderRadius="10px"
                 h={"50px"}
                 // paddingLeft={"30px"}
                 border="none"
                 marginBottom={"10px"}
+                className={styles.inputTag}
               />
             </Stack>
           </Stack>
@@ -80,22 +84,24 @@ const Contact = () => {
             name="message"
             rows="10"
             required
-            borderRadius="20px"
+            borderRadius="10px"
             // paddingLeft={"30px"}
             border="none"
             marginBottom={"10px"}
+            className={styles.inputTag}
           ></Textarea>
         </Stack>
         <Button
-          borderRadius="20px"
+          borderRadius="10px"
           border="none"
           marginBottom={"10px"}
           type="submit"
-          // h={"15%"}
-          // w={"20%"}
-          // color="red"
+          width={"100px"}
+          height={"50px"}
+          color="red"
+          fontWeight={"bold"}
         >
-          Submit
+          SUBMIT
         </Button>
       </form>
     </Box>
