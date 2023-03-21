@@ -19,20 +19,6 @@ function Projects() {
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath={
-                "https://miro.medium.com/max/875/1*ru80flR8vGGCsI9i0MKLKQ.png"
-              }
-              isBlog={false}
-              title="J.Crew Clone Website"
-              description="Shop JCrew.com for the Highest Quality Women's and Men's Clothing and see the entire selection of Children's Clothing, Cashmere Sweaters, Women's Dresses ."
-              ghLink="https://github.com/lokeshahire/toothsome-week-3235"
-              demoLink="https://jcrew-clone-lokesh.netlify.app/"
-              techstack="  ReactJS |  NodeJS  |  MongoDB |  JSON   | API  |  ES6"
-            />
-          </Col>
-
-          <Col md={8} className="project-card">
-            <ProjectCard
-              imgPath={
                 "https://miro.medium.com/max/875/1*uboqNnyPrdAiuT1Jd0GDpA.png"
               }
               isBlog={false}
@@ -83,6 +69,19 @@ function Projects() {
               ghLink="https://github.com/lokeshahire/Skinstore-Clone"
               demoLink="https://timely-cucurucho-1b7757.netlify.app/"
               techstack="  ReactJS  |  ChakraUI   |  JSON  |  API  |  ES6  | NodeJS |  MongoDB"
+            />
+          </Col>
+          <Col md={8} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://miro.medium.com/max/875/1*ru80flR8vGGCsI9i0MKLKQ.png"
+              }
+              isBlog={false}
+              title="J.Crew Clone Website"
+              description="Shop JCrew.com for the Highest Quality Women's and Men's Clothing and see the entire selection of Children's Clothing, Cashmere Sweaters, Women's Dresses ."
+              ghLink="https://github.com/lokeshahire/toothsome-week-3235"
+              demoLink="https://jcrew-clone-lokesh.netlify.app/"
+              techstack="  ReactJS |  NodeJS  |  MongoDB |  JSON   | API  |  ES6"
             />
           </Col>
 

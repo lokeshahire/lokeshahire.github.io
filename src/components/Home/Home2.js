@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { CgMail } from "react-icons/cg";
+import { FaBeer, FaLinkedinIn } from "react-icons/fa";
 
 import Tilt from "react-parallax-tilt";
 
@@ -22,8 +25,40 @@ function Home2() {
               SQL and Bit Manipulation. Apart from programming, I enjoy playing
               sports ⚽, reading books 📚, photography 📸, listening to music 🎵
               and riding 🏍️.
+              <div>
+                {/* <li className="social-icons" style={{ height: "50px", width: "50px" }}> */}
+
+                <a
+                  href="https://github.com/lokeshahire"
+                  style={{ fontSize: "70px" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
+                  style={{ marginLeft: "70px", fontSize: "70px" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn />
+                </a>
+                <a
+                  href="mailto: iamlokeshahire@gmail.com"
+                  style={{ marginLeft: "70px", fontSize: "70px" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CgMail />
+
+
+                </a>
+                {/* </li> */}
+              </div>
               <br />
               <br />
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">

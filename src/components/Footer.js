@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
+                href="mailto: iamlokeshahire@gmail.com"
                 style={{ color: "white", textDecoration: "none", fontSize: "15px" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -55,7 +55,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +91 7042421211
+                +91 8421997242
               </a>
             </li>
           </ul>

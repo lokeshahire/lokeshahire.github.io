@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { Button, Link } from "@chakra-ui/react";
+import { AiFillGithub } from "react-icons/ai";
 
 function Home() {
   return (
@@ -34,6 +35,7 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
