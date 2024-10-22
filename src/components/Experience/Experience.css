@@ -1,0 +1,8 @@
+.no-link-style {
+  color: unset;
+  text-decoration: underline;
+}
+
+.no-link-style:hover {
+  text-decoration: underline;
+}

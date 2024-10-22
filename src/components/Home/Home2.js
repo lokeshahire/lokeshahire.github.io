@@ -16,15 +16,20 @@ function Home2() {
               ABOUT&nbsp; ME
             </h1>
             <p className="home-about-body">
-              Hey, My name is Lokesh Ahire. I have completed my Bachelor of
-              Engineering from K.K.Wagh College of Engineering, Nashik(M.H.).
-              <br />
-              <br />
-              Currently, I have expertise in C, C++, HTML, CSS, ChakraUI,
-              JavaScript, NodeJS, React, ExpressJS, and MongoDB. I also have knowledge of
-              SQL and Bit Manipulation. Apart from programming, I enjoy playing
-              sports ⚽, reading books 📚, photography 📸, listening to music 🎵
-              and riding 🏍️.
+              I am Lokesh Ahire, a Frontend Developer with over one year of
+              experience and a strong foundation in Full Stack Development from
+              MASAI School. My skills include HTML, CSS, Bootstrap, SASS,
+              JavaScript, ReactJS, Redux, NodeJS, ExpressJS, TypeScript,
+              MongoDB, and GSAP for animations.
+              <br /> <br /> Currently, I work as a Frontend Developer at LIQVD
+              ASIA, contributing to projects like ICICI pages, Digiboxx Website,
+              WeMadeInIndia, Indian Gaming Convention, Indospace, iManage
+              website, and the INFINO website. I have also worked on AI chatbot
+              projects with Bard and OpenAI API integrations. I am passionate
+              about creating user-centric, engaging digital products and thrive
+              in collaborative environments. I like playing sports ⚽, reading
+              books 📚, photography 📸, listening to music 🎵 and riding 🏍️.
+              <br /> <br />
               <div>
                 {/* <li className="social-icons" style={{ height: "50px", width: "50px" }}> */}
 
@@ -37,7 +42,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/lokesh-ahire-30a184207/"
+                  href="https://www.linkedin.com/in/lokeshahire"
                   style={{ marginLeft: "70px", fontSize: "70px" }}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -51,14 +56,11 @@ function Home2() {
                   rel="noopener noreferrer"
                 >
                   <CgMail />
-
-
                 </a>
                 {/* </li> */}
               </div>
               <br />
               <br />
-
             </p>
           </Col>
           <Col md={4} className="myAvtar">

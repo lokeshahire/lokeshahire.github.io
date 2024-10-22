@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Statistics from "./components/Statistics";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Navbar />
       <ScrollToTop />
       <Home />
+      <Experience />
       <About />
       <Skill />
       <Projects />
