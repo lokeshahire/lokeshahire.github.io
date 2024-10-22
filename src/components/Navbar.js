@@ -77,9 +77,18 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/"
+                onClick={() => closeMobileMenu("#experience")}
+              >
+                Experience
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/"
                 onClick={() => closeMobileMenu("#tech")}
               >
-                Tech Stack
+                Tech
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

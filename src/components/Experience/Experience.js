@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 
 function Experience() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="experience">
       <Container>
         <Row>
           <h1 style={{ fontSize: "2.6em", fontWeight: "bold", color: "red" }}>
@@ -31,7 +31,7 @@ function Experience() {
               <br />
               <ul>
                 <li>
-                  Developed and optimized the
+                  Developed and optimized the{" "}
                   <a
                     href="https://liqvd.asia/"
                     target="_blank"
@@ -39,13 +39,13 @@ function Experience() {
                     className="no-link-style"
                   >
                     LIQVD ASIA
-                  </a>
+                  </a>{" "}
                   company website, ensuring full responsiveness with GreenSock
                   (GSAP) animations to improve user interaction and overall site
                   performance.
                 </li>
                 <li>
-                  Developed and maintained responsive web pages for
+                  Developed and maintained responsive web pages for{" "}
                   <a
                     href="https://icicidemo.liqvd.com/demo/senior-citizen-v2/"
                     target="_blank"
@@ -53,11 +53,11 @@ function Experience() {
                     className="no-link-style"
                   >
                     ICICI
-                  </a>
+                  </a>{" "}
                   using ReactJS, implementing strong JavaScript validation.
                 </li>
                 <li>
-                  Developed the
+                  Developed the{" "}
                   <a
                     href="https://infinouniverse.com/"
                     target="_blank"
@@ -65,12 +65,12 @@ function Experience() {
                     className="no-link-style"
                   >
                     INFINO
-                  </a>
+                  </a>{" "}
                   website, making it fully responsive and rich in animations
                   using GreenSock.
                 </li>
                 <li>
-                  Worked on
+                  Worked on{" "}
                   <a
                     href="https://wemadeinindia.liqvd.com/"
                     target="_blank"
@@ -79,16 +79,17 @@ function Experience() {
                   >
                     WeMadeIndia
                   </a>
-                  ,
+                  ,{" "}
                   <a
                     href="https://liqvd.com/demo/indian_gaming_convention/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="no-link-style"
                   >
+                    {" "}
                     IndiaGaming
                   </a>
-                  , and
+                  , and{" "}
                   <a
                     href="https://liqvd.com/demo/imanage_new/"
                     target="_blank"
@@ -96,12 +97,12 @@ function Experience() {
                     className="no-link-style"
                   >
                     iManage
-                  </a>
+                  </a>{" "}
                   websites in frontend development, ensuring responsive and
                   dynamic user interfaces.
                 </li>
                 <li>
-                  Designed the
+                  Designed the{" "}
                   <a
                     href="https://liqvd.com/demo/indospace_brochure/"
                     target="_blank"
@@ -109,12 +110,12 @@ function Experience() {
                     className="no-link-style"
                   >
                     IndoSpace brochure
-                  </a>
+                  </a>{" "}
                   , implementing advanced scroll animations using ScrollReveal
                   and JavaScript.
                 </li>
                 <li>
-                  Developed some
+                  Developed some{" "}
                   <a
                     href="https://digiboxx.com/"
                     target="_blank"
@@ -122,7 +123,7 @@ function Experience() {
                     className="no-link-style"
                   >
                     DigiBoxx
-                  </a>
+                  </a>{" "}
                   website pages, incorporating responsive design, worked on meta
                   tags, and WordPress theme.
                 </li>

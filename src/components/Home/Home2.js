@@ -30,9 +30,7 @@ function Home2() {
               in collaborative environments. I like playing sports ⚽, reading
               books 📚, photography 📸, listening to music 🎵 and riding 🏍️.
               <br /> <br />
-              <div>
-                {/* <li className="social-icons" style={{ height: "50px", width: "50px" }}> */}
-
+              {/* <div>
                 <a
                   href="https://github.com/lokeshahire"
                   style={{ fontSize: "70px" }}
@@ -57,8 +55,7 @@ function Home2() {
                 >
                   <CgMail />
                 </a>
-                {/* </li> */}
-              </div>
+              </div> */}
               <br />
               <br />
             </p>
