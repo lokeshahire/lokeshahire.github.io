@@ -9,10 +9,22 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section" id="about">
+    <Container
+      fluid
+      className="about-section"
+      id="about"
+      style={{ paddingTop: "5rem" }}
+    >
       <Particle />
       <Container>
-        <h1 className="project-heading">TECH STACKS</h1>
+        <h1
+          style={{
+            fontSize: "2.6em",
+            fontWeight: "bold",
+          }}
+        >
+          TECH STACKS
+        </h1>
         <Techstack />
         <Toolstack />
         {/* <Github /> */}

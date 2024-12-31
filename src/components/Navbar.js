@@ -59,7 +59,14 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => {
+                  closeMobileMenu("#home");
+                  updateExpanded(false);
+                }}
+              >
                 Home
               </Nav.Link>
             </Nav.Item>
@@ -86,7 +93,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/"
-                onClick={() => closeMobileMenu("#tech")}
+                onClick={() => closeMobileMenu("#newid")}
               >
                 Tech
               </Nav.Link>
@@ -125,17 +132,26 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/"
-                onClick={() => closeMobileMenu("#contact")}
+                onClick={() => closeMobileMenu("#newid2")}
               >
                 Contact
               </Nav.Link>
             </Nav.Item>
             <Navbar.Brand style={{ marginTop: "7px", marginLeft: "13px" }}>
-              {/* <Button> */}
               <a
                 href={require("../documents/LokeshAhireResume.pdf")}
                 alt="brand"
-                download="LokeshResume"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const url = require("../documents/LokeshAhireResume.pdf");
+
+                  window.open(url, "_blank");
+
+                  const link = document.createElement("a");
+                  link.href = url;
+                  link.download = "LokeshResume";
+                  link.click();
+                }}
                 style={{
                   textDecoration: "none",
                   backgroundColor: "transparent",
@@ -144,7 +160,6 @@ function NavBar() {
               >
                 Resume
               </a>
-              {/* </Button> */}
             </Navbar.Brand>
           </Nav>
         </Navbar.Collapse>

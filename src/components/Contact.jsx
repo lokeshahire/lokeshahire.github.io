@@ -34,10 +34,16 @@ const Contact = () => {
       borderRadius="20px"
       overflow="hidden"
       padding={"5%"}
+      marginTop={"15%"}
     >
       <h1
         className="project-heading"
-        style={{ fontSize: "2.6em", fontWeight: "bold", marginBottom: "2em" }}
+        style={{
+          fontSize: "2.6em",
+          fontWeight: "bold",
+          marginBottom: "2em",
+          marginTop: "5%",
+        }}
       >
         CONTACTS
       </h1>

@@ -9,7 +9,14 @@ function Experience() {
     <Container fluid className="home-about-section" id="experience">
       <Container>
         <Row>
-          <h1 style={{ fontSize: "2.6em", fontWeight: "bold", color: "red" }}>
+          <h1
+            style={{
+              fontSize: "2.6em",
+              fontWeight: "bold",
+              color: "red",
+              marginTop: "5%",
+            }}
+          >
             EXPERIENCE
           </h1>
           <Col md={4} className="myAvtar">
@@ -134,6 +141,7 @@ function Experience() {
           </Col>
         </Row>
       </Container>
+      <div id="newid"></div>
     </Container>
   );
 }

@@ -74,6 +74,7 @@ function Statistics() {
           />
         </Stack>
       </Row>
+      <div id="newid2"></div>
     </Container>
   );
 }
