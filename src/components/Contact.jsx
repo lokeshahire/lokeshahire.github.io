@@ -35,6 +35,11 @@ const Contact = () => {
       overflow="hidden"
       padding={"5%"}
       marginTop={"15%"}
+      css={{
+        "@media (max-width: 768px)": {
+          width: "100%",
+        },
+      }}
     >
       <h1
         className="project-heading"
