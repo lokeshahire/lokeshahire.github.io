@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lokesh Ahire</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link
+      rel="shortcut icon"
+      href="dist/img/lokeshLogo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">
+          <!-- Lokesh -->
+          <img
+            src="/dist/img/lokeshLogo.png"
+            alt="Lokesh Logo"
+            style="height: 50px; width: 100px"
+          />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tech-stacks">Tech</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="./dist/documents/LokeshFinalResume.pdf"
+            class="resume-btn"
+            target="_blank"
+            onclick="openAndDownload(event)"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- home  -->
+    <section id="home" class="home-section">
+      <div class="home-content">
+        <div class="text">
+          <h1>
+            Hi, I am
+            <span id="name" class="my-3">&nbsp;LOKESH &nbsp; AHIRE</span>
+          </h1>
+          <div class="desidiv">
+            <h2 id="desi"></h2>
+          </div>
+        </div>
+        <div class="image d-none">
+          <img src="dist/img/coder1.png" alt="Coder Person" />
+        </div>
+      </div>
+    </section>
+
+    <!-- gsap  -->
+    <div id="page5" class="overflow-hidden d-md-block d-none">
+      <div id="string">
+        <svg id="stringsvg" width="100%" height="200">
+          <path
+            d="M 0 100 Q 50 100 1000 100"
+            stroke="white"
+            fill="transparent"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <!-- about  -->
+    <section id="about" class="about-section" data-aos="fade-up">
+      <div class="about-container">
+        <h1 data-aos="zoom-in">ABOUT <span>ME</span></h1>
+        <div class="about-content" data-aos="fade-up" data-aos-delay="500">
+          <p data-aos="fade-right">
+            I am <strong>Lokesh Ahire</strong>, a Frontend Developer with over
+            one year of experience and a strong foundation in Full Stack
+            Development from MASAI School. My skills include
+            <strong
+              >HTML, CSS, Bootstrap, SASS, JavaScript, ReactJS, Redux, NodeJS,
+              ExpressJS, TypeScript, MongoDB</strong
+            >, and <strong>GSAP</strong> for animations.
+          </p>
+          <p data-aos="fade-left">
+            Currently, I work as a <strong>Frontend Developer</strong> at
+            <strong>LIQVD ASIA</strong>, contributing to projects like
+            <em>ICICI pages</em>, <em>Digiboxx Website</em>,
+            <em>WeMadeInIndia</em>, <em>Indian Gaming Convention</em>,
+            <em>Indospace</em>, <em>iManage website</em>, and the
+            <em>INFINO website</em>. I have also worked on
+            <strong>AI chatbot projects</strong> with Bard and OpenAI API
+            integrations.
+          </p>
+          <p data-aos="fade-up">
+            I am passionate about creating user-centric, engaging digital
+            products and thrive in collaborative environments. I enjoy
+            <span>playing sports ⚽</span>, <span>reading books 📚</span>,
+            <span>photography 📸</span>, <span>listening to music 🎵</span>, and
+            <span>riding 🏍️</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience  -->
+    <section id="experience" class="experience-section overflow-hidden">
+      <div class="experience-container">
+        <h1 data-aos="zoom-in">EXPERIENCE</h1>
+        <div class="row experience-content">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="500"
+            class="col-12 col-md-3 experience-avatar"
+          >
+            <img src="dist/img/lalogo.png" alt="Avatar" />
+          </div>
+          <div class="col-md-9 col-12 experience-details">
+            <h2 data-aos="fade-left" data-aos-delay="500">
+              Role: <span>Jr Frontend Developer</span>
+            </h2>
+            <p data-aos="fade-right" data-aos-delay="800">
+              <strong>Duration:</strong> October 2023 - Present
+            </p>
+            <ul>
+              <li class="expLi">
+                Developed and optimized the
+                <strong
+                  ><a href="https://liqvd.asia/" target="_blank"
+                    >LIQVD ASIA</a
+                  ></strong
+                >
+                company website, ensuring full responsiveness with GreenSock
+                (GSAP) animations to improve user interaction and overall site
+                performance.
+              </li>
+              <li class="expLi">
+                Developed and maintained responsive web pages for
+                <strong
+                  ><a
+                    href="https://icicidemo.liqvd.com/demo/senior-citizen-v2/"
+                    target="_blank"
+                    >ICICI</a
+                  ></strong
+                >
+                using ReactJS, implementing strong JavaScript validation.
+              </li>
+              <li class="expLi">
+                Developed the
+                <strong
+                  ><a href="https://infinouniverse.com/" target="_blank"
+                    >INFINO</a
+                  >
+                </strong>
+                website, making it fully responsive and rich in animations using
+                GreenSock.
+              </li>
+              <li class="expLi">
+                Worked on
+                <strong
+                  ><a href="https://wemadeinindia.liqvd.com/" target="_blank"
+                    >WeMadeIndia</a
+                  >
+                  ,
+                  <a
+                    href="https://liqvd.com/demo/indian_gaming_convention/"
+                    target="_blank"
+                    >IndiaGaming</a
+                  >,</strong
+                >
+                and
+                <strong
+                  ><a
+                    href="https://liqvd.com/demo/imanage_new/home.html"
+                    target="_blank"
+                    >iManage</a
+                  ></strong
+                >
+                websites in frontend development, ensuring responsive and
+                dynamic user interfaces.
+              </li>
+              <li class="expLi">
+                Designed the
+                <strong
+                  ><a
+                    href="https://liqvd.com/demo/indospace_brochure/"
+                    target="_blank"
+                    >IndoSpace Brochure</a
+                  ></strong
+                >, implementing advanced scroll animations using ScrollReveal
+                and JavaScript.
+              </li>
+              <li class="expLi">
+                Developed some
+                <strong
+                  ><a href="https://digiboxx.com/" target="_blank"
+                    >DigiBoxx</a
+                  ></strong
+                >
+                website pages, incorporating responsive design, worked on meta
+                tags, and WordPress theme.
+              </li>
+            </ul>
+            <p data-aos="fade-up">
+              <strong>Tech Stack:</strong> ReactJS, GreenSock, HTML, CSS,
+              Bootstrap, SASS, JavaScript, PHP, WordPress, Responsive Design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects  -->
+    <section id="projects" class="timeline-container position-absolute">
+      <h1 class="project-heading">PROJECTS</h1>
+
+      <div class="timelinewrapper position-absolute">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 position-relative projectsection">
+              <ul class="timeline">
+                <li>
+                  <div class="direction">
+                    <div class="flag-wrapper d-flex flex-column">
+                      <div class="netmed-background background-tilt"></div>
+
+                      <span class="flag"></span>
+                      <span class="time-wrapper mb-3">
+                        <span>NetMeds Clone</span>
+                        <span class="project-links">
+                          <a
+                            href="https://github.com/lokeshahire/NetMeds-Clone"
+                            target="_blank"
+                            aria-label="GitHub Repository"
+                          >
+                            <i class="fa-brands fa-github"></i>
+                          </a>
+                          <a
+                            href="https://netmed-lokesh-alok-ashish-akash-pooja.netlify.app/"
+                            target="_blank"
+                            aria-label="Live Deployment"
+                          >
+                            <i class="fa-solid fa-globe"></i>
+                          </a>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="desc">
+                      At netmeds.com make a wide range of prescription medicines
+                      and other health products conveniently available all
+                      across India.
+                    </div>
+                    <div class="tech-stack mt-4">
+                      <strong>Tech Stack:</strong> HTML | CSS | JavaScript |
+                      LocalStorage | API | ES6
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction">
+                    <div class="flag-wrapper d-flex flex-column">
+                      <div class="clock-background background-tilt"></div>
+                      <span class="flag"></span>
+                      <span class="time-wrapper mb-3"
+                        ><span>Clockify Me Clone </span>
+                        <span class="project-links">
+                          <a
+                            href="https://github.com/lokeshahire/Clockify-Me"
+                            target="_blank"
+                            aria-label="GitHub Repository"
+                          >
+                            <i class="fa-brands fa-github"></i>
+                          </a>
+                          <a
+                            href="https://clockify-me-clone-lokesh.netlify.app/"
+                            target="_blank"
+                            aria-label="Live Deployment"
+                          >
+                            <i class="fa-solid fa-globe"></i>
+                          </a>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="desc">
+                      Clockify is a time tracker and timesheet app
+                    </div>
+                    <div class="tech-stack mt-4">
+                      <strong>Tech Stack:</strong> HTML | CSS | JavaScript |
+                      LocalStorage | API | ES6
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction">
+                    <div class="flag-wrapper d-flex flex-column">
+                      <div class="jcrew-background background-tilt"></div>
+                      <span class="flag"></span>
+                      <span class="time-wrapper mb-3"
+                        ><span>J.Crew Clone Website </span>
+                        <span class="project-links">
+                          <a
+                            href="https://github.com/lokeshahire/toothsome-week-3235"
+                            target="_blank"
+                            aria-label="GitHub Repository"
+                          >
+                            <i class="fa-brands fa-github"></i>
+                          </a>
+                          <a
+                            href="https://jcrew-clone-lokesh.netlify.app/"
+                            target="_blank"
+                            aria-label="Live Deployment"
+                          >
+                            <i class="fa-solid fa-globe"></i>
+                          </a>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="desc">
+                      Shop JCrew.com for the Highest Quality Women's and Men's
+                      Clothing and see the entire selection of Children's
+                      Clothing, Cashmere Sweaters, Women's Dresses .
+                    </div>
+                    <div class="tech-stack mt-4">
+                      <strong>Tech Stack:</strong> ReactJS | NodeJS | MongoDB |
+                      JSON | API | ES6
+                    </div>
+                  </div>
+                </li>
+
+                <li id="lastchild">
+                  <div class="direction">
+                    <div class="flag-wrapper d-flex flex-column">
+                      <div class="apna-background background-tilt"></div>
+
+                      <span class="flag"></span>
+                      <span class="time-wrapper mb-3"
+                        ><span>Apna TV </span>
+                        <span class="project-links">
+                          <a
+                            href="https://github.com/lokeshahire/Apna-TV"
+                            target="_blank"
+                            aria-label="GitHub Repository"
+                          >
+                            <i class="fa-brands fa-github"></i>
+                          </a>
+                          <a
+                            href="https://apnatv.vercel.app/"
+                            target="_blank"
+                            aria-label="Live Deployment"
+                          >
+                            <i class="fa-solid fa-globe"></i>
+                          </a>
+                        </span>
+                      </span>
+                    </div>
+                    <div class="desc">
+                      Apna TV is an OTT platform that have movies and web series
+                      around the world in many languages.
+                    </div>
+                    <div class="tech-stack mt-4">
+                      <strong>Tech Stack:</strong> ReactJS | ChakraUI | JSON |
+                      API | ES6 | NodeJS | MongoDB
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills  -->
+
+    <section
+      id="skills"
+      class="skills-section overflow-hidden"
+      data-aos="fade-up"
+    >
+      <h1 class="skills-heading" data-aos="zoom-in">SKILLS</h1>
+      <div class="skills-list" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-item" data-aos="fade-right" data-aos-delay="500">
+          ⚡ Data Structures and Algorithm
+        </div>
+        <div class="skill-item">⚡ Frontend Development</div>
+        <div class="skill-item" data-aos="fade-left" data-aos-delay="500">
+          ⚡ Backend Development
+        </div>
+        <div class="skill-item" data-aos="fade-right" data-aos-delay="600">
+          ⚡ Communication Skills
+        </div>
+        <div class="skill-item">
+          ⚡ Building responsive websites using HTML, CSS, JS, React
+        </div>
+        <div class="skill-item" data-aos="fade-left" data-aos-delay="600">
+          ⚡ Creating backend applications in Node, ExpressJS
+        </div>
+        <div class="skill-item" data-aos="fade-right" data-aos-delay="700">
+          ⚡ Building simple RESTful CRUD APIs
+        </div>
+        <div class="skill-item">⚡ Knowledge of MongoDB Database</div>
+        <div class="skill-item" data-aos="fade-left" data-aos-delay="700">
+          ⚡ Knowledge of various UI libraries
+        </div>
+      </div>
+    </section>
+
+    <!-- tech stack  -->
+
+    <section id="tech-stacks" class="tech-stacks-section overflow-hidden">
+      <h1 class="tech-stacks-heading" data-aos="zoom-in">
+        TECH <span>STACKS</span>
+      </h1>
+      <div class="container">
+        <div
+          class="row gap-4"
+          style="justify-content: center; padding-bottom: 50px"
+        >
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="100"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/html-5.svg"
+                alt="HTML5"
+              />
+              <span class="tooltip-text">HTML5</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="150"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/css-3.svg"
+                alt="CSS3"
+              />
+              <span class="tooltip-text">CSS3</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up"
+            data-aos-delay="175"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/javascript.svg"
+                alt="JavaScript"
+              />
+              <span class="tooltip-text">JavaScript</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="100"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/react.svg"
+                alt="React"
+              />
+              <span class="tooltip-text">React</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="75"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/redux.svg"
+                alt="Redux"
+              />
+              <span class="tooltip-text">Redux</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="200"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/bootstrap.svg"
+                alt="Bootstrap"
+              />
+              <span class="tooltip-text">Bootstrap</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="250"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/node-sass.svg"
+                alt="SASS"
+              />
+              <span class="tooltip-text">SASS</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up"
+            data-aos-delay="225"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/greensock-icon.svg"
+                alt="GSAP"
+              />
+              <span class="tooltip-text">GSAP</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="200"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/nodejs-icon.svg"
+                alt="Node.js"
+              />
+              <span class="tooltip-text">Node.js</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="225"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/mongodb-icon.svg"
+                alt="MongoDB"
+              />
+              <span class="tooltip-text">MongoDB</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/nextjs-icon.svg"
+                alt="Next.js"
+              />
+              <span class="tooltip-text">Next.js</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="350"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://img.icons8.com/color/344/chakra-ui.png"
+                alt="Chakra UI"
+              />
+              <span class="tooltip-text">Chakra UI</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up"
+            data-aos-delay="325"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/typescript-icon-round.svg"
+                alt="TypeScript"
+              />
+              <span class="tooltip-text">TypeScript</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/wordpress-icon.svg"
+                alt="WordPress"
+              />
+              <span class="tooltip-text">WordPress</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="350"
+          >
+            <div class="tooltip-container">
+              <svg
+                width="256px"
+                height="150px"
+                viewBox="0 0 256 250"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                preserveAspectRatio="xMidYMid"
+              >
+                <g>
+                  <path
+                    d="M128.00106,0 C57.3172926,0 0,57.3066942 0,128.00106 C0,184.555281 36.6761997,232.535542 87.534937,249.460899 C93.9320223,250.645779 96.280588,246.684165 96.280588,243.303333 C96.280588,240.251045 96.1618878,230.167899 96.106777,219.472176 C60.4967585,227.215235 52.9826207,204.369712 52.9826207,204.369712 C47.1599584,189.574598 38.770408,185.640538 38.770408,185.640538 C27.1568785,177.696113 39.6458206,177.859325 39.6458206,177.859325 C52.4993419,178.762293 59.267365,191.04987 59.267365,191.04987 C70.6837675,210.618423 89.2115753,204.961093 96.5158685,201.690482 C97.6647155,193.417512 100.981959,187.77078 104.642583,184.574357 C76.211799,181.33766 46.324819,170.362144 46.324819,121.315702 C46.324819,107.340889 51.3250588,95.9223682 59.5132437,86.9583937 C58.1842268,83.7344152 53.8029229,70.715562 60.7532354,53.0843636 C60.7532354,53.0843636 71.5019501,49.6441813 95.9626412,66.2049595 C106.172967,63.368876 117.123047,61.9465949 128.00106,61.8978432 C138.879073,61.9465949 149.837632,63.368876 160.067033,66.2049595 C184.49805,49.6441813 195.231926,53.0843636 195.231926,53.0843636 C202.199197,70.715562 197.815773,83.7344152 196.486756,86.9583937 C204.694018,95.9223682 209.660343,107.340889 209.660343,121.315702 C209.660343,170.478725 179.716133,181.303747 151.213281,184.472614 C155.80443,188.444828 159.895342,196.234518 159.895342,208.176593 C159.895342,225.303317 159.746968,239.087361 159.746968,243.303333 C159.746968,246.709601 162.05102,250.70089 168.53925,249.443941 C219.370432,232.499507 256,184.536204 256,128.00106 C256,57.3066942 198.691187,0 128.00106,0 Z M47.9405593,182.340212 C47.6586465,182.976105 46.6581745,183.166873 45.7467277,182.730227 C44.8183235,182.312656 44.2968914,181.445722 44.5978808,180.80771 C44.8734344,180.152739 45.876026,179.97045 46.8023103,180.409216 C47.7328342,180.826786 48.2627451,181.702199 47.9405593,182.340212 Z M54.2367892,187.958254 C53.6263318,188.524199 52.4329723,188.261363 51.6232682,187.366874 C50.7860088,186.474504 50.6291553,185.281144 51.2480912,184.70672 C51.8776254,184.140775 53.0349512,184.405731 53.8743302,185.298101 C54.7115892,186.201069 54.8748019,187.38595 54.2367892,187.958254 Z M58.5562413,195.146347 C57.7719732,195.691096 56.4895886,195.180261 55.6968417,194.042013 C54.9125733,192.903764 54.9125733,191.538713 55.713799,190.991845 C56.5086651,190.444977 57.7719732,190.936735 58.5753181,192.066505 C59.3574669,193.22383 59.3574669,194.58888 58.5562413,195.146347 Z M65.8613592,203.471174 C65.1597571,204.244846 63.6654083,204.03712 62.5716717,202.981538 C61.4524999,201.94927 61.1409122,200.484596 61.8446341,199.710926 C62.5547146,198.935137 64.0575422,199.15346 65.1597571,200.200564 C66.2704506,201.230712 66.6095936,202.705984 65.8613592,203.471174 Z M75.3025151,206.281542 C74.9930474,207.284134 73.553809,207.739857 72.1039724,207.313809 C70.6562556,206.875043 69.7087748,205.700761 70.0012857,204.687571 C70.302275,203.678621 71.7478721,203.20382 73.2083069,203.659543 C74.6539041,204.09619 75.6035048,205.261994 75.3025151,206.281542 Z M86.046947,207.473627 C86.0829806,208.529209 84.8535871,209.404622 83.3316829,209.4237 C81.8013,209.457614 80.563428,208.603398 80.5464708,207.564772 C80.5464708,206.498591 81.7483088,205.631657 83.2786917,205.606221 C84.8005962,205.576546 86.046947,206.424403 86.046947,207.473627 Z M96.6021471,207.069023 C96.7844366,208.099171 95.7267341,209.156872 94.215428,209.438785 C92.7295577,209.710099 91.3539086,209.074206 91.1652603,208.052538 C90.9808515,206.996955 92.0576306,205.939253 93.5413813,205.66582 C95.054807,205.402984 96.4092596,206.021919 96.6021471,207.069023 Z"
+                    fill="#161614"
+                  ></path>
+                </g>
+              </svg>
+              <span class="tooltip-text">GitHub</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-right"
+            data-aos-delay="400"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/netlify-icon.svg"
+                alt="Netlify"
+              />
+              <span class="tooltip-text">Netlify</span>
+            </div>
+          </div>
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up"
+            data-aos-delay="425"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/postman-icon.svg"
+                alt="Postman"
+              />
+              <span class="tooltip-text">Postman</span>
+            </div>
+          </div>
+
+          <div
+            class="tech-icons col-md-2 col-4"
+            data-aos="fade-up-left"
+            data-aos-delay="450"
+          >
+            <div class="tooltip-container">
+              <img
+                height="100px"
+                src="https://cdn.svgporn.com/logos/figma.svg"
+                alt="figma"
+              />
+              <span class="tooltip-text">Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics  -->
+
+    <section
+      id="statistics"
+      class="statistics-section overflow-hidden"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <h1 class="statistics-heading" data-aos="zoom-in">Statistics</h1>
+
+        <div class="analytics-container">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=lokeshahire&count_private=true&theme=algolia&rank_icon=github&hide_border=true"
+            alt="lokeshahire's GitHub stats"
+            class="analytics-image"
+            data-aos="fade-right"
+          />
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokeshahire&langs_count=8&theme=algolia&hide_border=true"
+            alt="lokeshahire's Top Languages"
+            class="analytics-image"
+            data-aos="fade-left"
+          />
+        </div>
+
+        <div class="calendar-container overflow-hidden">
+          <img
+            src="https://ghchart.rshah.org/lokeshahire"
+            alt="lokeshahire's GitHub Contribution Calendar"
+            class="calendar-image"
+            data-aos="fade-up"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h1>CONTACT <span>ME</span></h1>
+
+        <p>If you have any questions, feel free to reach out to me!</p>
+
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formsubmit.co/iamlokeshahire@gmail.com"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" />
+        </form>
+
+        <!-- Response Message -->
+        <div id="responseMessage" class="response-message"></div>
+      </div>
+    </section>
+
+    <canvas> </canvas>
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="dist/js/colorbg.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<script src="dist/js/main.js"></script>
+<script src="/dist/js/gsap.js"></script>
