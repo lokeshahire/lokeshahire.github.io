@@ -137,7 +137,7 @@ function NavBar() {
                 Contact
               </Nav.Link>
             </Nav.Item>
-            <Navbar.Brand style={{ marginTop: "7px", marginLeft: "13px" }}>
+            {/* <Navbar.Brand style={{ marginTop: "7px", marginLeft: "13px" }}>
               <a
                 href={require("../documents/LokeshAhireResume.pdf")}
                 alt="brand"
@@ -160,7 +160,7 @@ function NavBar() {
               >
                 Resume
               </a>
-            </Navbar.Brand>
+            </Navbar.Brand> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -60,7 +60,7 @@ function Home2() {
               <br />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          {/* <Col md={4} className="myAvtar">
             <Tilt>
               <img
                 src={
@@ -70,7 +70,7 @@ function Home2() {
                 alt="avatar"
               />
             </Tilt>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
