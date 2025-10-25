@@ -58,16 +58,16 @@ function Footer() {
                 iamlokeshahire@gmail.com
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/lokeshahire"
                 style={{ color: "white", textDecoration: "none" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +91 8421997242
+              
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>
